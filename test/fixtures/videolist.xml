@@ -1,0 +1,2219 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"
+    xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/"
+    xmlns:gd="http://schemas.google.com/g/2005" xmlns:yt="http://gdata.youtube.com/schemas/2007"
+    gd:etag="W/&quot;DkEGR3czfip7I2A9WhVbFEU.&quot;">
+    <id>tag:youtube.com,2008:videos</id>
+    <updated>2012-05-31T17:17:06.986Z</updated>
+    <category scheme="http://schemas.google.com/g/2005#kind"
+        term="http://gdata.youtube.com/schemas/2007#video"/>
+    <title>YouTube Videos matching query: undergroundmed</title>
+    <logo>http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo>
+    <link rel="alternate" type="text/html" href="http://www.youtube.com"/>
+    <link rel="http://schemas.google.com/g/2006#spellcorrection" type="application/atom+xml"
+        href="http://gdata.youtube.com/feeds/api/videos?q=underground+med&amp;start-index=1&amp;max-results=25&amp;oi=spell&amp;spell=1&amp;v=2"
+        title="underground med"/>
+    <link rel="http://schemas.google.com/g/2005#feed" type="application/atom+xml"
+        href="http://gdata.youtube.com/feeds/api/videos?v=2"/>
+    <link rel="http://schemas.google.com/g/2005#batch" type="application/atom+xml"
+        href="http://gdata.youtube.com/feeds/api/videos/batch?v=2"/>
+    <link rel="self" type="application/atom+xml"
+        href="http://gdata.youtube.com/feeds/api/videos?q=undergroundmed&amp;start-index=1&amp;max-results=25&amp;v=2"/>
+    <link rel="service" type="application/atomsvc+xml"
+        href="http://gdata.youtube.com/feeds/api/videos?alt=atom-service&amp;v=2"/>
+    <link rel="next" type="application/atom+xml"
+        href="http://gdata.youtube.com/feeds/api/videos?q=undergroundmed&amp;start-index=26&amp;max-results=25&amp;v=2"/>
+    <author>
+        <name>YouTube</name>
+        <uri>http://www.youtube.com/</uri>
+    </author>
+    <generator version="2.1" uri="http://gdata.youtube.com">YouTube data API</generator>
+    <openSearch:totalResults>57</openSearch:totalResults>
+    <openSearch:startIndex>1</openSearch:startIndex>
+    <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+    <entry gd:etag="W/&quot;Ck4AQH47eCp7I2A9WhVUE00.&quot;">
+        <id>tag:youtube.com,2008:video:WF1s01ePXLI</id>
+        <published>2011-10-18T18:36:16.000Z</published>
+        <updated>2012-05-18T00:29:01.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Insulin Sliding Scale Explaned! [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/WF1s01ePXLI?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=WF1s01ePXLI&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/WF1s01ePXLI/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/WF1s01ePXLI/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=WF1s01ePXLI"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/WF1s01ePXLI?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/WF1s01ePXLI/comments?v=2"
+                countHint="2"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/WF1s01ePXLI?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="418" yt:format="5"/>
+            <media:content
+                url="rtsp://v8.cache2.c.youtube.com/CiILENy73wIaGQmyXI9X02xdWBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="418" yt:format="1"/>
+            <media:content
+                url="rtsp://v6.cache4.c.youtube.com/CiILENy73wIaGQmyXI9X02xdWBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="418" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain"/>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=WF1s01ePXLI&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/WF1s01ePXLI/default.jpg" height="90"
+                width="120" time="00:03:29" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/WF1s01ePXLI/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/WF1s01ePXLI/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/WF1s01ePXLI/1.jpg" height="90" width="120"
+                time="00:01:44.500" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/WF1s01ePXLI/2.jpg" height="90" width="120"
+                time="00:03:29" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/WF1s01ePXLI/3.jpg" height="90" width="120"
+                time="00:05:13.500" yt:name="end"/>
+            <media:title type="plain">Insulin Sliding Scale Explaned! [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="418"/>
+            <yt:uploaded>2011-10-18T18:36:16.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>WF1s01ePXLI</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="6"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="2" viewCount="735"/>
+        <yt:rating numDislikes="0" numLikes="6"/>
+    </entry>
+    <entry gd:etag="W/&quot;Ak8BSH47eCp7I2A9WhVVGE8.&quot;">
+        <id>tag:youtube.com,2008:video:i0fnBTUuRIA</id>
+        <published>2011-11-11T22:05:47.000Z</published>
+        <updated>2012-05-12T13:20:59.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Infant Developmental Milestones [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/i0fnBTUuRIA?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=i0fnBTUuRIA&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/i0fnBTUuRIA/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/i0fnBTUuRIA/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=i0fnBTUuRIA"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/i0fnBTUuRIA?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/i0fnBTUuRIA/comments?v=2"
+                countHint="2"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/i0fnBTUuRIA?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="417" yt:format="5"/>
+            <media:content
+                url="rtsp://v8.cache8.c.youtube.com/CiILENy73wIaGQmARC41BedHixMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="417" yt:format="1"/>
+            <media:content
+                url="rtsp://v7.cache4.c.youtube.com/CiILENy73wIaGQmARC41BedHixMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="417" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=i0fnBTUuRIA&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/i0fnBTUuRIA/default.jpg" height="90"
+                width="120" time="00:03:28.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/i0fnBTUuRIA/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/i0fnBTUuRIA/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/i0fnBTUuRIA/1.jpg" height="90" width="120"
+                time="00:01:44.250" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/i0fnBTUuRIA/2.jpg" height="90" width="120"
+                time="00:03:28.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/i0fnBTUuRIA/3.jpg" height="90" width="120"
+                time="00:05:12.750" yt:name="end"/>
+            <media:title type="plain">Infant Developmental Milestones [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="417"/>
+            <yt:uploaded>2011-11-11T22:05:47.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>i0fnBTUuRIA</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="4"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="3" viewCount="549"/>
+        <yt:rating numDislikes="0" numLikes="4"/>
+    </entry>
+    <entry gd:etag="W/&quot;DUQCQ347eCp7I2A9WhVbEkU.&quot;">
+        <id>tag:youtube.com,2008:video:7w3F-U6j1yU</id>
+        <published>2011-10-16T15:48:19.000Z</published>
+        <updated>2012-05-29T10:29:22.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Intro to Fluids - Crystalloids vs Colloids [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/7w3F-U6j1yU?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=7w3F-U6j1yU&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/7w3F-U6j1yU/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/7w3F-U6j1yU/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=7w3F-U6j1yU"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/7w3F-U6j1yU?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/7w3F-U6j1yU/comments?v=2"
+                countHint="1"/>
+        </gd:comments>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/7w3F-U6j1yU?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="411" yt:format="5"/>
+            <media:content
+                url="rtsp://v6.cache2.c.youtube.com/CiILENy73wIaGQkl16NO-cUN7xMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="411" yt:format="1"/>
+            <media:content
+                url="rtsp://v1.cache4.c.youtube.com/CiILENy73wIaGQkl16NO-cUN7xMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="411" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain"/>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=7w3F-U6j1yU&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7w3F-U6j1yU/default.jpg" height="90"
+                width="120" time="00:03:25.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7w3F-U6j1yU/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7w3F-U6j1yU/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7w3F-U6j1yU/1.jpg" height="90" width="120"
+                time="00:01:42.750" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7w3F-U6j1yU/2.jpg" height="90" width="120"
+                time="00:03:25.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7w3F-U6j1yU/3.jpg" height="90" width="120"
+                time="00:05:08.250" yt:name="end"/>
+            <media:title type="plain">Intro to Fluids - Crystalloids vs Colloids
+                [UndergroundMed]</media:title>
+            <yt:duration seconds="411"/>
+            <yt:uploaded>2011-10-16T15:48:19.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>7w3F-U6j1yU</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="8"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="1" viewCount="703"/>
+        <yt:rating numDislikes="0" numLikes="8"/>
+    </entry>
+    <entry gd:etag="W/&quot;D0MAQH47eCp7I2A9WhVVE0g.&quot;">
+        <id>tag:youtube.com,2008:video:F8TYLT0-5fs</id>
+        <published>2011-10-27T03:21:17.000Z</published>
+        <updated>2012-05-07T01:50:41.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Chest X-Ray Viewing Method - ABCDE [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/F8TYLT0-5fs?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=F8TYLT0-5fs&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/F8TYLT0-5fs/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/F8TYLT0-5fs/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=F8TYLT0-5fs"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/F8TYLT0-5fs?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/F8TYLT0-5fs/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/F8TYLT0-5fs?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="420" yt:format="5"/>
+            <media:content
+                url="rtsp://v3.cache4.c.youtube.com/CiILENy73wIaGQn75T49LdjEFxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="420" yt:format="1"/>
+            <media:content
+                url="rtsp://v2.cache8.c.youtube.com/CiILENy73wIaGQn75T49LdjEFxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="420" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=F8TYLT0-5fs&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/F8TYLT0-5fs/default.jpg" height="90"
+                width="120" time="00:03:30" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/F8TYLT0-5fs/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/F8TYLT0-5fs/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/F8TYLT0-5fs/1.jpg" height="90" width="120"
+                time="00:01:45" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/F8TYLT0-5fs/2.jpg" height="90" width="120"
+                time="00:03:30" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/F8TYLT0-5fs/3.jpg" height="90" width="120"
+                time="00:05:15" yt:name="end"/>
+            <media:title type="plain">Chest X-Ray Viewing Method - ABCDE
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="420"/>
+            <yt:uploaded>2011-10-27T03:21:17.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>F8TYLT0-5fs</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="6"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="3" viewCount="625"/>
+        <yt:rating numDislikes="0" numLikes="6"/>
+    </entry>
+    <entry gd:etag="W/&quot;A0MHQn47eCp7I2A9WhRVGE8.&quot;">
+        <id>tag:youtube.com,2008:video:A_lrwKVLNNE</id>
+        <published>2011-10-21T01:23:09.000Z</published>
+        <updated>2012-01-17T19:43:53.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Maintenance Fluids Calculation Derivations [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/A_lrwKVLNNE?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=A_lrwKVLNNE&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/A_lrwKVLNNE/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/A_lrwKVLNNE/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=A_lrwKVLNNE"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/A_lrwKVLNNE?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/A_lrwKVLNNE/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/A_lrwKVLNNE?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="421" yt:format="5"/>
+            <media:content
+                url="rtsp://v5.cache8.c.youtube.com/CiILENy73wIaGQnRNEulwGv5AxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="421" yt:format="1"/>
+            <media:content
+                url="rtsp://v7.cache4.c.youtube.com/CiILENy73wIaGQnRNEulwGv5AxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="421" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">More technical version</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=A_lrwKVLNNE&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/A_lrwKVLNNE/default.jpg" height="90"
+                width="120" time="00:03:30.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/A_lrwKVLNNE/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/A_lrwKVLNNE/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/A_lrwKVLNNE/1.jpg" height="90" width="120"
+                time="00:01:45.250" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/A_lrwKVLNNE/2.jpg" height="90" width="120"
+                time="00:03:30.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/A_lrwKVLNNE/3.jpg" height="90" width="120"
+                time="00:05:15.750" yt:name="end"/>
+            <media:title type="plain">Maintenance Fluids Calculation Derivations
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="421"/>
+            <yt:uploaded>2011-10-21T01:23:09.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>A_lrwKVLNNE</yt:videoid>
+        </media:group>
+        <yt:statistics favoriteCount="0" viewCount="58"/>
+    </entry>
+    <entry gd:etag="W/&quot;A0MHQn47eCp7I2A9WhRVGE8.&quot;">
+        <id>tag:youtube.com,2008:video:r0szxqTVGtY</id>
+        <published>2011-10-21T02:06:27.000Z</published>
+        <updated>2012-01-17T19:43:53.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Workup of a Thyroid Nodule [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/r0szxqTVGtY?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=r0szxqTVGtY&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/r0szxqTVGtY/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/r0szxqTVGtY/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=r0szxqTVGtY"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/r0szxqTVGtY?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/r0szxqTVGtY/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/r0szxqTVGtY?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="418" yt:format="5"/>
+            <media:content
+                url="rtsp://v4.cache5.c.youtube.com/CiILENy73wIaGQnWGtWkxjNLrxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="418" yt:format="1"/>
+            <media:content
+                url="rtsp://v6.cache8.c.youtube.com/CiILENy73wIaGQnWGtWkxjNLrxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="418" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=r0szxqTVGtY&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/r0szxqTVGtY/default.jpg" height="90"
+                width="120" time="00:03:29" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/r0szxqTVGtY/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/r0szxqTVGtY/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/r0szxqTVGtY/1.jpg" height="90" width="120"
+                time="00:01:44.500" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/r0szxqTVGtY/2.jpg" height="90" width="120"
+                time="00:03:29" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/r0szxqTVGtY/3.jpg" height="90" width="120"
+                time="00:05:13.500" yt:name="end"/>
+            <media:title type="plain">Workup of a Thyroid Nodule [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="418"/>
+            <yt:uploaded>2011-10-21T02:06:27.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>r0szxqTVGtY</yt:videoid>
+        </media:group>
+        <yt:statistics favoriteCount="0" viewCount="93"/>
+    </entry>
+    <entry gd:etag="W/&quot;D0IHR347eCp7I2A9WhVVE0g.&quot;">
+        <id>tag:youtube.com,2008:video:DnBRarZKvoU</id>
+        <published>2011-11-17T00:24:59.000Z</published>
+        <updated>2012-05-07T01:52:16.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Method to Read Lateral Chest X-Rays [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/DnBRarZKvoU?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=DnBRarZKvoU&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/DnBRarZKvoU/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/DnBRarZKvoU/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=DnBRarZKvoU"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/DnBRarZKvoU?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/DnBRarZKvoU/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/DnBRarZKvoU?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="422" yt:format="5"/>
+            <media:content
+                url="rtsp://v7.cache1.c.youtube.com/CiILENy73wIaGQmFvkq2alFwDhMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="422" yt:format="1"/>
+            <media:content
+                url="rtsp://v4.cache2.c.youtube.com/CiILENy73wIaGQmFvkq2alFwDhMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="422" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=DnBRarZKvoU&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/DnBRarZKvoU/default.jpg" height="90"
+                width="120" time="00:03:31" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/DnBRarZKvoU/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/DnBRarZKvoU/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/DnBRarZKvoU/1.jpg" height="90" width="120"
+                time="00:01:45.500" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/DnBRarZKvoU/2.jpg" height="90" width="120"
+                time="00:03:31" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/DnBRarZKvoU/3.jpg" height="90" width="120"
+                time="00:05:16.500" yt:name="end"/>
+            <media:title type="plain">Method to Read Lateral Chest X-Rays
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="422"/>
+            <yt:uploaded>2011-11-17T00:24:59.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>DnBRarZKvoU</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="2"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="1" viewCount="209"/>
+        <yt:rating numDislikes="0" numLikes="2"/>
+    </entry>
+    <entry gd:etag="W/&quot;A0MHQ347eCp7I2A9WhRVGE8.&quot;">
+        <id>tag:youtube.com,2008:video:xDlwAry1HHY</id>
+        <published>2011-11-10T03:28:43.000Z</published>
+        <updated>2012-01-17T19:43:52.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Vaginitis Differential [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/xDlwAry1HHY?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=xDlwAry1HHY&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/xDlwAry1HHY/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/xDlwAry1HHY/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=xDlwAry1HHY"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/xDlwAry1HHY?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/xDlwAry1HHY/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/xDlwAry1HHY?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="420" yt:format="5"/>
+            <media:content
+                url="rtsp://v7.cache4.c.youtube.com/CiILENy73wIaGQl2HLW8AnA5xBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="420" yt:format="1"/>
+            <media:content
+                url="rtsp://v2.cache1.c.youtube.com/CiILENy73wIaGQl2HLW8AnA5xBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="420" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=xDlwAry1HHY&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/xDlwAry1HHY/default.jpg" height="90"
+                width="120" time="00:03:30" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/xDlwAry1HHY/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/xDlwAry1HHY/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/xDlwAry1HHY/1.jpg" height="90" width="120"
+                time="00:01:45" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/xDlwAry1HHY/2.jpg" height="90" width="120"
+                time="00:03:30" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/xDlwAry1HHY/3.jpg" height="90" width="120"
+                time="00:05:15" yt:name="end"/>
+            <media:title type="plain">Vaginitis Differential [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="420"/>
+            <yt:uploaded>2011-11-10T03:28:43.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>xDlwAry1HHY</yt:videoid>
+        </media:group>
+        <yt:statistics favoriteCount="0" viewCount="62"/>
+    </entry>
+    <entry gd:etag="W/&quot;CUIAQH47eCp7I2A9WhVVF08.&quot;">
+        <id>tag:youtube.com,2008:video:z7_HseZBTT0</id>
+        <published>2011-12-04T15:08:16.000Z</published>
+        <updated>2012-05-11T08:05:41.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Identifying Heart Chambers and Heart Valves on Frontal and Lateral Chest X-Rays
+            [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/z7_HseZBTT0?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=z7_HseZBTT0&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/z7_HseZBTT0/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/z7_HseZBTT0/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=z7_HseZBTT0"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/z7_HseZBTT0?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/z7_HseZBTT0/comments?v=2"
+                countHint="1"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/z7_HseZBTT0?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="385" yt:format="5"/>
+            <media:content
+                url="rtsp://v2.cache6.c.youtube.com/CiILENy73wIaGQk9TUHmsce_zxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="385" yt:format="1"/>
+            <media:content
+                url="rtsp://v8.cache1.c.youtube.com/CiILENy73wIaGQk9TUHmsce_zxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="385" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=z7_HseZBTT0&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/z7_HseZBTT0/default.jpg" height="90"
+                width="120" time="00:03:12.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/z7_HseZBTT0/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/z7_HseZBTT0/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/z7_HseZBTT0/1.jpg" height="90" width="120"
+                time="00:01:36.250" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/z7_HseZBTT0/2.jpg" height="90" width="120"
+                time="00:03:12.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/z7_HseZBTT0/3.jpg" height="90" width="120"
+                time="00:04:48.750" yt:name="end"/>
+            <media:title type="plain">Identifying Heart Chambers and Heart Valves on Frontal and
+                Lateral Chest X-Rays [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="385"/>
+            <yt:uploaded>2011-12-04T15:08:16.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>z7_HseZBTT0</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="4"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="2" viewCount="237"/>
+        <yt:rating numDislikes="0" numLikes="4"/>
+    </entry>
+    <entry gd:etag="W/&quot;CEcNRn47eCp7I2A9WhVTGE0.&quot;">
+        <id>tag:youtube.com,2008:video:8ZAN6vEuYjY</id>
+        <published>2011-10-27T22:43:33.000Z</published>
+        <updated>2012-03-03T19:14:57.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Types of Chest X-Rays part 1 - AP vs PA [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/8ZAN6vEuYjY?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=8ZAN6vEuYjY&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/8ZAN6vEuYjY/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/8ZAN6vEuYjY/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=8ZAN6vEuYjY"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/8ZAN6vEuYjY?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/8ZAN6vEuYjY/comments?v=2"
+                countHint="4"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/8ZAN6vEuYjY?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="396" yt:format="5"/>
+            <media:content
+                url="rtsp://v2.cache5.c.youtube.com/CiILENy73wIaGQk2Yi7x6g2Q8RMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="396" yt:format="1"/>
+            <media:content
+                url="rtsp://v7.cache6.c.youtube.com/CiILENy73wIaGQk2Yi7x6g2Q8RMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="396" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=8ZAN6vEuYjY&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/8ZAN6vEuYjY/default.jpg" height="90"
+                width="120" time="00:03:18" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/8ZAN6vEuYjY/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/8ZAN6vEuYjY/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/8ZAN6vEuYjY/1.jpg" height="90" width="120"
+                time="00:01:39" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/8ZAN6vEuYjY/2.jpg" height="90" width="120"
+                time="00:03:18" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/8ZAN6vEuYjY/3.jpg" height="90" width="120"
+                time="00:04:57" yt:name="end"/>
+            <media:title type="plain">Types of Chest X-Rays part 1 - AP vs PA
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="396"/>
+            <yt:uploaded>2011-10-27T22:43:33.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>8ZAN6vEuYjY</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="1"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="0" viewCount="212"/>
+        <yt:rating numDislikes="0" numLikes="1"/>
+    </entry>
+    <entry gd:etag="W/&quot;A0MHQ347eCp7I2A9WhRVGE8.&quot;">
+        <id>tag:youtube.com,2008:video:Q0X2cP3C8R8</id>
+        <published>2011-11-17T03:53:12.000Z</published>
+        <updated>2012-01-17T19:43:52.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Two handed Square Knot Theory [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/Q0X2cP3C8R8?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=Q0X2cP3C8R8&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/Q0X2cP3C8R8/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/Q0X2cP3C8R8/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=Q0X2cP3C8R8"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/Q0X2cP3C8R8?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/Q0X2cP3C8R8/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/Q0X2cP3C8R8?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="418" yt:format="5"/>
+            <media:content
+                url="rtsp://v7.cache4.c.youtube.com/CiILENy73wIaGQkf8cL9cPZFQxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="418" yt:format="1"/>
+            <media:content
+                url="rtsp://v1.cache5.c.youtube.com/CiILENy73wIaGQkf8cL9cPZFQxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="418" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain"/>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=Q0X2cP3C8R8&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Q0X2cP3C8R8/default.jpg" height="90"
+                width="120" time="00:03:29" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Q0X2cP3C8R8/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Q0X2cP3C8R8/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Q0X2cP3C8R8/1.jpg" height="90" width="120"
+                time="00:01:44.500" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Q0X2cP3C8R8/2.jpg" height="90" width="120"
+                time="00:03:29" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Q0X2cP3C8R8/3.jpg" height="90" width="120"
+                time="00:05:13.500" yt:name="end"/>
+            <media:title type="plain">Two handed Square Knot Theory [UndergroundMed]</media:title>
+            <yt:duration seconds="418"/>
+            <yt:uploaded>2011-11-17T03:53:12.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>Q0X2cP3C8R8</yt:videoid>
+        </media:group>
+        <yt:statistics favoriteCount="0" viewCount="41"/>
+    </entry>
+    <entry gd:etag="W/&quot;DkEAQX47eCp7I2A9WhVVGUg.&quot;">
+        <id>tag:youtube.com,2008:video:az_PyTXFG9c</id>
+        <published>2012-05-13T20:31:38.000Z</published>
+        <updated>2012-05-14T00:17:20.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Howto"
+            label="Howto &amp; Style"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Method to read EKGs part 1 [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/az_PyTXFG9c?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=az_PyTXFG9c&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/az_PyTXFG9c/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/az_PyTXFG9c/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=az_PyTXFG9c"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/az_PyTXFG9c?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/az_PyTXFG9c/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Howto &amp; Style"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Howto</media:category>
+            <media:content
+                url="http://www.youtube.com/v/az_PyTXFG9c?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="411" yt:format="5"/>
+            <media:content
+                url="rtsp://v5.cache2.c.youtube.com/CiILENy73wIaGQnXG8U1yc8_axMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="411" yt:format="1"/>
+            <media:content
+                url="rtsp://v2.cache8.c.youtube.com/CiILENy73wIaGQnXG8U1yc8_axMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="411" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">video</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=az_PyTXFG9c&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/az_PyTXFG9c/default.jpg" height="90"
+                width="120" time="00:03:25.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/az_PyTXFG9c/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/az_PyTXFG9c/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/az_PyTXFG9c/1.jpg" height="90" width="120"
+                time="00:01:42.750" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/az_PyTXFG9c/2.jpg" height="90" width="120"
+                time="00:03:25.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/az_PyTXFG9c/3.jpg" height="90" width="120"
+                time="00:05:08.250" yt:name="end"/>
+            <media:title type="plain">Method to read EKGs part 1 [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="411"/>
+            <yt:uploaded>2012-05-13T20:31:38.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>az_PyTXFG9c</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="1"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="0" viewCount="22"/>
+        <yt:rating numDislikes="0" numLikes="1"/>
+    </entry>
+    <entry gd:etag="W/&quot;CUMBQX47eCp7I2A9WhVVGEg.&quot;">
+        <id>tag:youtube.com,2008:video:4oYBLkbDjhg</id>
+        <published>2011-11-19T22:49:54.000Z</published>
+        <updated>2012-05-12T20:10:50.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Lobar Atelectasis on Frontal and Lateral Chest X-Rays [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/4oYBLkbDjhg?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=4oYBLkbDjhg&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/4oYBLkbDjhg/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/4oYBLkbDjhg/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=4oYBLkbDjhg"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/4oYBLkbDjhg?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/4oYBLkbDjhg/comments?v=2"
+                countHint="1"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/4oYBLkbDjhg?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="417" yt:format="5"/>
+            <media:content
+                url="rtsp://v6.cache5.c.youtube.com/CiILENy73wIaGQkYjsNGLgGG4hMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="417" yt:format="1"/>
+            <media:content
+                url="rtsp://v6.cache6.c.youtube.com/CiILENy73wIaGQkYjsNGLgGG4hMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="417" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=4oYBLkbDjhg&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4oYBLkbDjhg/default.jpg" height="90"
+                width="120" time="00:03:28.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4oYBLkbDjhg/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4oYBLkbDjhg/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4oYBLkbDjhg/1.jpg" height="90" width="120"
+                time="00:01:44.250" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4oYBLkbDjhg/2.jpg" height="90" width="120"
+                time="00:03:28.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4oYBLkbDjhg/3.jpg" height="90" width="120"
+                time="00:05:12.750" yt:name="end"/>
+            <media:title type="plain">Lobar Atelectasis on Frontal and Lateral Chest X-Rays
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="417"/>
+            <yt:uploaded>2011-11-19T22:49:54.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>4oYBLkbDjhg</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="5"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="3" viewCount="434"/>
+        <yt:rating numDislikes="0" numLikes="5"/>
+    </entry>
+    <entry gd:etag="W/&quot;A0MHQn47eCp7I2A9WhRVGE8.&quot;">
+        <id>tag:youtube.com,2008:video:T3xFzsgJBkU</id>
+        <published>2011-10-21T01:56:03.000Z</published>
+        <updated>2012-01-17T19:43:53.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Hospital Diets Overview [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/T3xFzsgJBkU?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=T3xFzsgJBkU&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/T3xFzsgJBkU/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/T3xFzsgJBkU/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=T3xFzsgJBkU"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/T3xFzsgJBkU?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/T3xFzsgJBkU/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/T3xFzsgJBkU?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="371" yt:format="5"/>
+            <media:content
+                url="rtsp://v8.cache4.c.youtube.com/CiILENy73wIaGQlFBgnIzkV8TxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="371" yt:format="1"/>
+            <media:content
+                url="rtsp://v1.cache8.c.youtube.com/CiILENy73wIaGQlFBgnIzkV8TxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="371" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=T3xFzsgJBkU&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/T3xFzsgJBkU/default.jpg" height="90"
+                width="120" time="00:03:05.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/T3xFzsgJBkU/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/T3xFzsgJBkU/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/T3xFzsgJBkU/1.jpg" height="90" width="120"
+                time="00:01:32.750" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/T3xFzsgJBkU/2.jpg" height="90" width="120"
+                time="00:03:05.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/T3xFzsgJBkU/3.jpg" height="90" width="120"
+                time="00:04:38.250" yt:name="end"/>
+            <media:title type="plain">Hospital Diets Overview [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="371"/>
+            <yt:uploaded>2011-10-21T01:56:03.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>T3xFzsgJBkU</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="2"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="1" viewCount="78"/>
+        <yt:rating numDislikes="0" numLikes="2"/>
+    </entry>
+    <entry gd:etag="W/&quot;DkcGQX47eCp7I2A9WhVWF08.&quot;">
+        <id>tag:youtube.com,2008:video:VACDx6QTJv4</id>
+        <published>2011-10-27T03:04:57.000Z</published>
+        <updated>2012-04-29T18:27:00.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>60-40-20 Rule of Water Distribution [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/VACDx6QTJv4?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=VACDx6QTJv4&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/VACDx6QTJv4/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/VACDx6QTJv4/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=VACDx6QTJv4"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/VACDx6QTJv4?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/VACDx6QTJv4/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/VACDx6QTJv4?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="283" yt:format="5"/>
+            <media:content
+                url="rtsp://v6.cache2.c.youtube.com/CiILENy73wIaGQn-JhOkx4MAVBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="283" yt:format="1"/>
+            <media:content
+                url="rtsp://v5.cache1.c.youtube.com/CiILENy73wIaGQn-JhOkx4MAVBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="283" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=VACDx6QTJv4&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/VACDx6QTJv4/default.jpg" height="90"
+                width="120" time="00:02:21.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/VACDx6QTJv4/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/VACDx6QTJv4/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/VACDx6QTJv4/1.jpg" height="90" width="120"
+                time="00:01:10.750" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/VACDx6QTJv4/2.jpg" height="90" width="120"
+                time="00:02:21.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/VACDx6QTJv4/3.jpg" height="90" width="120"
+                time="00:03:32.250" yt:name="end"/>
+            <media:title type="plain">60-40-20 Rule of Water Distribution
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="283"/>
+            <yt:uploaded>2011-10-27T03:04:57.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>VACDx6QTJv4</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="1"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="0" viewCount="131"/>
+        <yt:rating numDislikes="0" numLikes="1"/>
+    </entry>
+    <entry gd:etag="W/&quot;CkEMQ347eCp7I2A9WhRVGU8.&quot;">
+        <id>tag:youtube.com,2008:video:7tDDDLqWnBQ</id>
+        <published>2011-11-04T02:44:24.000Z</published>
+        <updated>2012-01-18T21:04:42.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Identifying Lung Lobes on Frontal and Lateral Chest X-Rays [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/7tDDDLqWnBQ?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=7tDDDLqWnBQ&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/7tDDDLqWnBQ/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/7tDDDLqWnBQ/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=7tDDDLqWnBQ"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/7tDDDLqWnBQ?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/7tDDDLqWnBQ/comments?v=2"
+                countHint="1"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/7tDDDLqWnBQ?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="397" yt:format="5"/>
+            <media:content
+                url="rtsp://v4.cache8.c.youtube.com/CiILENy73wIaGQkUnJa6DMPQ7hMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="397" yt:format="1"/>
+            <media:content
+                url="rtsp://v2.cache6.c.youtube.com/CiILENy73wIaGQkUnJa6DMPQ7hMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="397" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=7tDDDLqWnBQ&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7tDDDLqWnBQ/default.jpg" height="90"
+                width="120" time="00:03:18.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7tDDDLqWnBQ/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7tDDDLqWnBQ/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7tDDDLqWnBQ/1.jpg" height="90" width="120"
+                time="00:01:39.250" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7tDDDLqWnBQ/2.jpg" height="90" width="120"
+                time="00:03:18.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/7tDDDLqWnBQ/3.jpg" height="90" width="120"
+                time="00:04:57.750" yt:name="end"/>
+            <media:title type="plain">Identifying Lung Lobes on Frontal and Lateral Chest X-Rays
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="397"/>
+            <yt:uploaded>2011-11-04T02:44:24.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>7tDDDLqWnBQ</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="1"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="2" viewCount="295"/>
+        <yt:rating numDislikes="0" numLikes="1"/>
+    </entry>
+    <entry gd:etag="W/&quot;A0MHQ347eCp7I2A9WhRVGE8.&quot;">
+        <id>tag:youtube.com,2008:video:W_6v0v6tqCE</id>
+        <published>2011-11-08T00:52:04.000Z</published>
+        <updated>2012-01-17T19:43:52.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Silhouette Sign on Chest X-Ray [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/W_6v0v6tqCE?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=W_6v0v6tqCE&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/W_6v0v6tqCE/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/W_6v0v6tqCE/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=W_6v0v6tqCE"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/W_6v0v6tqCE?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/W_6v0v6tqCE/comments?v=2"
+                countHint="1"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/W_6v0v6tqCE?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="405" yt:format="5"/>
+            <media:content
+                url="rtsp://v8.cache5.c.youtube.com/CiILENy73wIaGQkhqK3-0q_-WxMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="405" yt:format="1"/>
+            <media:content
+                url="rtsp://v1.cache2.c.youtube.com/CiILENy73wIaGQkhqK3-0q_-WxMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="405" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=W_6v0v6tqCE&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/W_6v0v6tqCE/default.jpg" height="90"
+                width="120" time="00:03:22.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/W_6v0v6tqCE/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/W_6v0v6tqCE/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/W_6v0v6tqCE/1.jpg" height="90" width="120"
+                time="00:01:41.250" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/W_6v0v6tqCE/2.jpg" height="90" width="120"
+                time="00:03:22.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/W_6v0v6tqCE/3.jpg" height="90" width="120"
+                time="00:05:03.750" yt:name="end"/>
+            <media:title type="plain">Silhouette Sign on Chest X-Ray [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="405"/>
+            <yt:uploaded>2011-11-08T00:52:04.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>W_6v0v6tqCE</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="1"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="1" viewCount="109"/>
+        <yt:rating numDislikes="0" numLikes="1"/>
+    </entry>
+    <entry gd:etag="W/&quot;A0MHQn47eCp7I2A9WhRVGE8.&quot;">
+        <id>tag:youtube.com,2008:video:nopHyyI2vPY</id>
+        <published>2011-10-27T02:37:03.000Z</published>
+        <updated>2012-01-17T19:43:53.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Types of Medical Lines part 1 - Arterial and Peripheral [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/nopHyyI2vPY?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=nopHyyI2vPY&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/nopHyyI2vPY/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/nopHyyI2vPY/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=nopHyyI2vPY"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/nopHyyI2vPY?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/nopHyyI2vPY/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/nopHyyI2vPY?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="373" yt:format="5"/>
+            <media:content
+                url="rtsp://v6.cache3.c.youtube.com/CiILENy73wIaGQn2vDYiy0eKnhMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="373" yt:format="1"/>
+            <media:content
+                url="rtsp://v5.cache4.c.youtube.com/CiILENy73wIaGQn2vDYiy0eKnhMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="373" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=nopHyyI2vPY&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/nopHyyI2vPY/default.jpg" height="90"
+                width="120" time="00:03:06.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/nopHyyI2vPY/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/nopHyyI2vPY/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/nopHyyI2vPY/1.jpg" height="90" width="120"
+                time="00:01:33.250" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/nopHyyI2vPY/2.jpg" height="90" width="120"
+                time="00:03:06.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/nopHyyI2vPY/3.jpg" height="90" width="120"
+                time="00:04:39.750" yt:name="end"/>
+            <media:title type="plain">Types of Medical Lines part 1 - Arterial and Peripheral
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="373"/>
+            <yt:uploaded>2011-10-27T02:37:03.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>nopHyyI2vPY</yt:videoid>
+        </media:group>
+        <yt:statistics favoriteCount="0" viewCount="62"/>
+    </entry>
+    <entry gd:etag="W/&quot;DkACSX47eCp7I2A9WhVTF0k.&quot;">
+        <id>tag:youtube.com,2008:video:oEmCcEio6nw</id>
+        <published>2011-11-02T01:26:47.000Z</published>
+        <updated>2012-03-03T03:19:28.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Types of Chest X-Rays part 2 - Lateral, Supine, Decubitus [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/oEmCcEio6nw?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=oEmCcEio6nw&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/oEmCcEio6nw/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/oEmCcEio6nw/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=oEmCcEio6nw"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/oEmCcEio6nw?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/oEmCcEio6nw/comments?v=2"
+                countHint="2"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/oEmCcEio6nw?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="415" yt:format="5"/>
+            <media:content
+                url="rtsp://v7.cache4.c.youtube.com/CiILENy73wIaGQl86qhIcIJJoBMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="415" yt:format="1"/>
+            <media:content
+                url="rtsp://v1.cache2.c.youtube.com/CiILENy73wIaGQl86qhIcIJJoBMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="415" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=oEmCcEio6nw&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/oEmCcEio6nw/default.jpg" height="90"
+                width="120" time="00:03:27.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/oEmCcEio6nw/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/oEmCcEio6nw/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/oEmCcEio6nw/1.jpg" height="90" width="120"
+                time="00:01:43.750" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/oEmCcEio6nw/2.jpg" height="90" width="120"
+                time="00:03:27.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/oEmCcEio6nw/3.jpg" height="90" width="120"
+                time="00:05:11.250" yt:name="end"/>
+            <media:title type="plain">Types of Chest X-Rays part 2 - Lateral, Supine, Decubitus
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="415"/>
+            <yt:uploaded>2011-11-02T01:26:47.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>oEmCcEio6nw</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="1"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="0" viewCount="159"/>
+        <yt:rating numDislikes="0" numLikes="1"/>
+    </entry>
+    <entry gd:etag="W/&quot;A0AERn47eCp7I2A9WhVWFEo.&quot;">
+        <id>tag:youtube.com,2008:video:4fP7-XgSZnQ</id>
+        <published>2012-04-26T22:35:07.000Z</published>
+        <updated>2012-04-26T22:35:07.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>CBC Tips and Notation [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/4fP7-XgSZnQ?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=4fP7-XgSZnQ&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/4fP7-XgSZnQ/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/4fP7-XgSZnQ/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=4fP7-XgSZnQ"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/4fP7-XgSZnQ?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/4fP7-XgSZnQ/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/4fP7-XgSZnQ?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="404" yt:format="5"/>
+            <media:content
+                url="rtsp://v2.cache5.c.youtube.com/CiILENy73wIaGQl0ZhJ4-fvz4RMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="404" yt:format="1"/>
+            <media:content
+                url="rtsp://v8.cache5.c.youtube.com/CiILENy73wIaGQl0ZhJ4-fvz4RMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="404" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">video</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=4fP7-XgSZnQ&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4fP7-XgSZnQ/default.jpg" height="90"
+                width="120" time="00:03:22" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4fP7-XgSZnQ/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4fP7-XgSZnQ/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4fP7-XgSZnQ/1.jpg" height="90" width="120"
+                time="00:01:41" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4fP7-XgSZnQ/2.jpg" height="90" width="120"
+                time="00:03:22" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4fP7-XgSZnQ/3.jpg" height="90" width="120"
+                time="00:05:03" yt:name="end"/>
+            <media:title type="plain">CBC Tips and Notation [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="404"/>
+            <yt:uploaded>2012-04-26T22:35:07.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>4fP7-XgSZnQ</yt:videoid>
+        </media:group>
+        <yt:statistics favoriteCount="0" viewCount="21"/>
+    </entry>
+    <entry gd:etag="W/&quot;CUIHR347eCp7I2A9WhVbFEk.&quot;">
+        <id>tag:youtube.com,2008:video:63tXOFlDQS8</id>
+        <published>2012-05-25T20:58:19.000Z</published>
+        <updated>2012-05-31T05:52:16.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Maintenance Fluids Overview [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/63tXOFlDQS8?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=63tXOFlDQS8&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/63tXOFlDQS8/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/63tXOFlDQS8/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=63tXOFlDQS8"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/63tXOFlDQS8?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/63tXOFlDQS8/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/63tXOFlDQS8?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="420" yt:format="5"/>
+            <media:content
+                url="rtsp://v2.cache5.c.youtube.com/CiILENy73wIaGQkvQUNZOFd76xMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="420" yt:format="1"/>
+            <media:content
+                url="rtsp://v5.cache7.c.youtube.com/CiILENy73wIaGQkvQUNZOFd76xMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="420" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">video</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=63tXOFlDQS8&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/63tXOFlDQS8/default.jpg" height="90"
+                width="120" time="00:03:30" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/63tXOFlDQS8/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/63tXOFlDQS8/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/63tXOFlDQS8/1.jpg" height="90" width="120"
+                time="00:01:45" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/63tXOFlDQS8/2.jpg" height="90" width="120"
+                time="00:03:30" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/63tXOFlDQS8/3.jpg" height="90" width="120"
+                time="00:05:15" yt:name="end"/>
+            <media:title type="plain">Maintenance Fluids Overview [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="420"/>
+            <yt:uploaded>2012-05-25T20:58:19.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>63tXOFlDQS8</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="1"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="0" viewCount="11"/>
+        <yt:rating numDislikes="0" numLikes="1"/>
+    </entry>
+    <entry gd:etag="W/&quot;D0IASX47eCp7I2A9WhVVE0g.&quot;">
+        <id>tag:youtube.com,2008:video:4NNhGSXvbOU</id>
+        <published>2011-11-09T20:46:09.000Z</published>
+        <updated>2012-05-07T01:52:28.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Identifying which Lung Lobe a Puemonia is in [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/4NNhGSXvbOU?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=4NNhGSXvbOU&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/4NNhGSXvbOU/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/4NNhGSXvbOU/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=4NNhGSXvbOU"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/4NNhGSXvbOU?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/4NNhGSXvbOU/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/4NNhGSXvbOU?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="421" yt:format="5"/>
+            <media:content
+                url="rtsp://v7.cache1.c.youtube.com/CiILENy73wIaGQnlbO8lGWHT4BMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="421" yt:format="1"/>
+            <media:content
+                url="rtsp://v2.cache5.c.youtube.com/CiILENy73wIaGQnlbO8lGWHT4BMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="421" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">.</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=4NNhGSXvbOU&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4NNhGSXvbOU/default.jpg" height="90"
+                width="120" time="00:03:30.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4NNhGSXvbOU/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4NNhGSXvbOU/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4NNhGSXvbOU/1.jpg" height="90" width="120"
+                time="00:01:45.250" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4NNhGSXvbOU/2.jpg" height="90" width="120"
+                time="00:03:30.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/4NNhGSXvbOU/3.jpg" height="90" width="120"
+                time="00:05:15.750" yt:name="end"/>
+            <media:title type="plain">Identifying which Lung Lobe a Puemonia is in
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="421"/>
+            <yt:uploaded>2011-11-09T20:46:09.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>4NNhGSXvbOU</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="1"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="0" viewCount="125"/>
+        <yt:rating numDislikes="0" numLikes="1"/>
+    </entry>
+    <entry gd:etag="W/&quot;DUUERX47eCp7I2A9WhVVGU4.&quot;">
+        <id>tag:youtube.com,2008:video:5uBE4uuTEMQ</id>
+        <published>2012-04-29T21:22:37.000Z</published>
+        <updated>2012-05-13T19:26:44.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Generating a Differential Diagnosis [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/5uBE4uuTEMQ?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=5uBE4uuTEMQ&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/5uBE4uuTEMQ/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/5uBE4uuTEMQ/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=5uBE4uuTEMQ"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/5uBE4uuTEMQ?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/5uBE4uuTEMQ/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/5uBE4uuTEMQ?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="418" yt:format="5"/>
+            <media:content
+                url="rtsp://v7.cache1.c.youtube.com/CiILENy73wIaGQnEEJPr4kTg5hMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="418" yt:format="1"/>
+            <media:content
+                url="rtsp://v2.cache2.c.youtube.com/CiILENy73wIaGQnEEJPr4kTg5hMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="418" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">video</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=5uBE4uuTEMQ&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/5uBE4uuTEMQ/default.jpg" height="90"
+                width="120" time="00:03:29" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/5uBE4uuTEMQ/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/5uBE4uuTEMQ/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/5uBE4uuTEMQ/1.jpg" height="90" width="120"
+                time="00:01:44.500" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/5uBE4uuTEMQ/2.jpg" height="90" width="120"
+                time="00:03:29" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/5uBE4uuTEMQ/3.jpg" height="90" width="120"
+                time="00:05:13.500" yt:name="end"/>
+            <media:title type="plain">Generating a Differential Diagnosis
+                [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="418"/>
+            <yt:uploaded>2012-04-29T21:22:37.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>5uBE4uuTEMQ</yt:videoid>
+        </media:group>
+        <gd:rating average="5.0" max="5" min="1" numRaters="1"
+            rel="http://schemas.google.com/g/2005#overall"/>
+        <yt:statistics favoriteCount="1" viewCount="38"/>
+        <yt:rating numDislikes="0" numLikes="1"/>
+    </entry>
+    <entry gd:etag="W/&quot;DUAAQH47eCp7I2A9WhVVGUk.&quot;">
+        <id>tag:youtube.com,2008:video:Xq9LFn7ddj8</id>
+        <published>2012-05-13T22:22:21.000Z</published>
+        <updated>2012-05-13T22:22:21.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>Method to Read EKGs part 2 [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/Xq9LFn7ddj8?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=Xq9LFn7ddj8&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/Xq9LFn7ddj8/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/Xq9LFn7ddj8/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=Xq9LFn7ddj8"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/Xq9LFn7ddj8?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/Xq9LFn7ddj8/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/Xq9LFn7ddj8?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="420" yt:format="5"/>
+            <media:content
+                url="rtsp://v4.cache1.c.youtube.com/CiILENy73wIaGQk_dt1-FkuvXhMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="420" yt:format="1"/>
+            <media:content
+                url="rtsp://v6.cache1.c.youtube.com/CiILENy73wIaGQk_dt1-FkuvXhMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="420" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">video</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=Xq9LFn7ddj8&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Xq9LFn7ddj8/default.jpg" height="90"
+                width="120" time="00:03:30" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Xq9LFn7ddj8/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Xq9LFn7ddj8/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Xq9LFn7ddj8/1.jpg" height="90" width="120"
+                time="00:01:45" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Xq9LFn7ddj8/2.jpg" height="90" width="120"
+                time="00:03:30" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/Xq9LFn7ddj8/3.jpg" height="90" width="120"
+                time="00:05:15" yt:name="end"/>
+            <media:title type="plain">Method to Read EKGs part 2 [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="420"/>
+            <yt:uploaded>2012-05-13T22:22:21.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>Xq9LFn7ddj8</yt:videoid>
+        </media:group>
+        <yt:statistics favoriteCount="0" viewCount="10"/>
+    </entry>
+    <entry gd:etag="W/&quot;CE8NQX47eCp7I2A9WhVUGUo.&quot;">
+        <id>tag:youtube.com,2008:video:yoJzNL6XqkI</id>
+        <published>2012-05-25T19:08:10.000Z</published>
+        <updated>2012-05-25T19:08:10.000Z</updated>
+        <category scheme="http://schemas.google.com/g/2005#kind"
+            term="http://gdata.youtube.com/schemas/2007#video"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/categories.cat" term="Education"
+            label="Education"/>
+        <category scheme="http://gdata.youtube.com/schemas/2007/keywords.cat" term="undergroundmed"/>
+        <title>BMP-Chem7 Tips and Notation [UndergroundMed]</title>
+        <content type="application/x-shockwave-flash"
+            src="http://www.youtube.com/v/yoJzNL6XqkI?version=3&amp;f=videos&amp;app=youtube_gdata"/>
+        <link rel="alternate" type="text/html"
+            href="http://www.youtube.com/watch?v=yoJzNL6XqkI&amp;feature=youtube_gdata"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.responses"
+            type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/yoJzNL6XqkI/responses?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#video.related" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/yoJzNL6XqkI/related?v=2"/>
+        <link rel="http://gdata.youtube.com/schemas/2007#mobile" type="text/html"
+            href="http://m.youtube.com/details?v=yoJzNL6XqkI"/>
+        <link rel="self" type="application/atom+xml"
+            href="http://gdata.youtube.com/feeds/api/videos/yoJzNL6XqkI?v=2"/>
+        <author>
+            <name>UndergroudMed</name>
+            <uri>http://gdata.youtube.com/feeds/api/users/UndergroudMed</uri>
+            <yt:userId>lFTJ35LhEhNuwPynuGo_PA</yt:userId>
+        </author>
+        <yt:accessControl action="comment" permission="allowed"/>
+        <yt:accessControl action="commentVote" permission="allowed"/>
+        <yt:accessControl action="videoRespond" permission="moderated"/>
+        <yt:accessControl action="rate" permission="allowed"/>
+        <yt:accessControl action="embed" permission="allowed"/>
+        <yt:accessControl action="list" permission="allowed"/>
+        <yt:accessControl action="autoPlay" permission="allowed"/>
+        <yt:accessControl action="syndicate" permission="allowed"/>
+        <gd:comments>
+            <gd:feedLink rel="http://gdata.youtube.com/schemas/2007#comments"
+                href="http://gdata.youtube.com/feeds/api/videos/yoJzNL6XqkI/comments?v=2"
+                countHint="0"/>
+        </gd:comments>
+        <yt:hd/>
+        <media:group>
+            <media:category label="Education"
+                scheme="http://gdata.youtube.com/schemas/2007/categories.cat"
+                >Education</media:category>
+            <media:content
+                url="http://www.youtube.com/v/yoJzNL6XqkI?version=3&amp;f=videos&amp;app=youtube_gdata"
+                type="application/x-shockwave-flash" medium="video" isDefault="true"
+                expression="full" duration="413" yt:format="5"/>
+            <media:content
+                url="rtsp://v3.cache3.c.youtube.com/CiILENy73wIaGQlCqpe-NHOCyhMYDSANFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="413" yt:format="1"/>
+            <media:content
+                url="rtsp://v5.cache5.c.youtube.com/CiILENy73wIaGQlCqpe-NHOCyhMYESARFEgGUgZ2aWRlb3MM/0/0/0/video.3gp"
+                type="video/3gpp" medium="video" expression="full" duration="413" yt:format="6"/>
+            <media:credit role="uploader" scheme="urn:youtube" yt:display="UndergroudMed"
+                >undergroudmed</media:credit>
+            <media:description type="plain">video</media:description>
+            <media:keywords>undergroundmed</media:keywords>
+            <media:license type="text/html" href="http://www.youtube.com/t/terms"
+                >youtube</media:license>
+            <media:player
+                url="http://www.youtube.com/watch?v=yoJzNL6XqkI&amp;feature=youtube_gdata_player"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/yoJzNL6XqkI/default.jpg" height="90"
+                width="120" time="00:03:26.500" yt:name="default"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/yoJzNL6XqkI/mqdefault.jpg" height="180"
+                width="320" yt:name="mqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/yoJzNL6XqkI/hqdefault.jpg" height="360"
+                width="480" yt:name="hqdefault"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/yoJzNL6XqkI/1.jpg" height="90" width="120"
+                time="00:01:43.250" yt:name="start"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/yoJzNL6XqkI/2.jpg" height="90" width="120"
+                time="00:03:26.500" yt:name="middle"/>
+            <media:thumbnail url="http://i.ytimg.com/vi/yoJzNL6XqkI/3.jpg" height="90" width="120"
+                time="00:05:09.750" yt:name="end"/>
+            <media:title type="plain">BMP-Chem7 Tips and Notation [UndergroundMed]</media:title>
+            <yt:aspectRatio>widescreen</yt:aspectRatio>
+            <yt:duration seconds="413"/>
+            <yt:uploaded>2012-05-25T19:08:10.000Z</yt:uploaded>
+            <yt:uploaderId>lFTJ35LhEhNuwPynuGo_PA</yt:uploaderId>
+            <yt:videoid>yoJzNL6XqkI</yt:videoid>
+        </media:group>
+        <yt:statistics favoriteCount="0" viewCount="7"/>
+    </entry>
+</feed>
