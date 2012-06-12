@@ -1,0 +1,83 @@
+<style type="text/css">
+  #videoDiv {
+    margin-right: 3px;
+  }
+  #videoInfo {
+    margin-left: 3px;
+  }
+</style>
+
+<script type="text/javascript">
+
+  function _run() {
+    loadPlayer("<%=@featured_video_id%>");
+  }
+
+  $(document).ready(function(){
+    _run();
+    getVideoList("all");
+
+    createProgressDialog();
+  });
+
+
+//  $(window).load(function() {
+//
+//    $('#slider').nivoSlider();
+//  });
+
+
+
+</script>
+
+<!--<div id="header"><img src="t1.jpg" style="margin:0; padding:0; height:122px; width:960px; display:inline"></div>-->
+
+  <div id="main">
+
+    <table>
+      <tr>
+        <td><div id="videoDiv">Loading...</div></td>
+        <td valign="top">
+          <div id="videoControls"/>
+        </td>
+      </tr>
+    </table>
+    <button type="button"  onclick="getPreviousVideo()">Previous</button>
+    <button type="button"  onclick="getNextVideo()">Next</button>
+
+    <p>Select a video to load:</p>
+
+    <div class="videoListDiv">
+      <table id="videoListTable">
+        <tr>
+          <th>&nbsp;</th>
+          <th align="left">Title</th>
+          <th>Rating</th>
+          <th>Views</th>
+          <th>Category</th>
+        </tr>
+       </table>
+    </div>
+
+  </div>
+  <div id="sidebar" style="border:solid; border-width:2px; border-color: #ccc; padding: 2px; margin-top:10px">
+    <b>Want to help?</b><br/>
+
+    Yes, I would like to help by:<br/>
+    <input type="checkbox" id="makeVideo"/>Making videos<br/>
+    <input type="checkbox" id="reviewVideo">Reviewing Videos <br/>
+    <input type="checkbox" id="addToList">Just keep me informed<br/>
+
+     Comments:<br/>
+      <textarea id="comments" rows="6" style="width:98%; padding:2px;"></textarea><br/>
+
+       Name: <input type="text" id="name"/> <br/>
+       Email*<input type="text" id="email"/>  <br/>
+
+        <span class="smallText">*Required</span>  <br/>
+
+         <button type="button" onclick="saveContact()">I'd like to help</button>
+
+  </div>
+
+
