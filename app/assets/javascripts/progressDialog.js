@@ -2,7 +2,8 @@ var progressDialog = null;
 
 function createProgressDialog() {
 
-   progressDialog = $('<div></div>')
+//   progressDialog = $('<div></div>')
+  progressDialog = $("#progressDlg")
     .dialog({
       autoOpen: false,
       modal: true,
@@ -20,7 +21,6 @@ function showProgressDialog(msg) {
     progressDialog.dialog('open');
   }
 }
-
 
 function hideProgressDialog() {
   if(progressDialog != null)
