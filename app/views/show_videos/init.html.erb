@@ -15,24 +15,24 @@
 
   $(document).ready(function(){
     _run();
-    getVideoList("all");
+    getVideoList("<%=VideoAttributes::ALL %>");
 
     createProgressDialog();
+    createInfoDialog();
+
+    $(function(){
+      $(window).responsinav({ breakpoint: 650 });
+    });
+
   });
-
-
-//  $(window).load(function() {
-//
-//    $('#slider').nivoSlider();
-//  });
-
-
 
 </script>
 
-<!--<div id="header"><img src="t1.jpg" style="margin:0; padding:0; height:122px; width:960px; display:inline"></div>-->
-
   <div id="main">
+      Our ultimate goal is to create a site dedicated to the needs of the modern medical student.  Our videos are designed to be: fun, interactive, practical, contextual, high-yield, and time sensitive, and we are always looking for new ways to improve on our work.  The intent of our videos is not to teach every detail in existence, but to instead provide a contextual thinking framework that students can use to build their medical knowledge.  Rest assured that factual correctness and quality are very important to us - as our videos are checked for factual correctness by experienced and accomplished medical educators.
+      We are, and always intend to be, a student run organization - but one that also has support from nationally recognized and accredited medical organizations.
+      If you would like to join us in our mission, please contact us!  And please feel free to offer any advice or suggestions on how we can improve your UndergroundMed experience!
+    <br/>
 
     <table>
       <tr>
@@ -44,9 +44,7 @@
     </table>
     <button type="button"  onclick="getPreviousVideo()">Previous</button>
     <button type="button"  onclick="getNextVideo()">Next</button>
-
-    <p>Select a video to load:</p>
-
+     <p/>
     <div class="videoListDiv">
       <table id="videoListTable">
         <tr>

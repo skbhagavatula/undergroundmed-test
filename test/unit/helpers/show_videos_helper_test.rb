@@ -4,6 +4,7 @@ class ShowVideosHelperTest < ActionController::TestCase
 
   def setup
     @controller = ShowVideosController.new
+    @radiology_ids = ["F8TYLT0-5fs", "DnBRarZKvoU", "z7_HseZBTT0", "8ZAN6vEuYjY", "4oYBLkbDjhg", "7tDDDLqWnBQ", "W_6v0v6tqCE", "oEmCcEio6nw", "4NNhGSXvbOU"]
   end
 
   test "test_init" do
@@ -30,6 +31,24 @@ class ShowVideosHelperTest < ActionController::TestCase
     assert_equal(1, sorted_list[0].order)
     assert_equal(2, sorted_list[1].order)
     assert_equal(3, sorted_list[2].order)
+  end
+
+  test "get_list_by_category"   do
+    xml =  File.read("test/fixtures/videolist.xml");
+    ShowVideosController.stubs(:get_current_list).returns(YouTubeApiCallsHelper.parse_video_list(xml))
+    all_videos_list =  ShowVideosController.get_current_list
+
+    assert_equal(25, all_videos_list.length)
+
+    video_list = ShowVideosHelper.get_list_by_category(VideoAttributes::RADIOLOGY, all_videos_list)
+    assert_equal(9, video_list.length)
+
+    for video in video_list
+      assert_equal(true, @radiology_ids.include?(video.yt_id))
+    end
+
+    video_list = ShowVideosHelper.get_list_by_category(VideoAttributes::ALL, all_videos_list)
+    assert_equal(25, video_list.length)
   end
 
 

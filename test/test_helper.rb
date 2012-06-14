@@ -2,7 +2,7 @@ ENV["RAILS_ENV"] = "test"
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
 require 'minitest/reporters'
-require 'webmock/test_unit'
+require 'mocha'
 
 MiniTest::Unit.runner = MiniTest::SuiteRunner.new
 if ENV["RM_INFO"] || ENV["TEAMCITY_VERSION"]

@@ -7,6 +7,7 @@ class VideoAttributes
   PEDIATRICS = "Pediatrics"
   OBGYN = "Ob/gyn"
   OTHER = "Other"
+  ALL = "All"
 
   @categories_by_id =  {
     '5uBE4uuTEMQ' => MEDICINE,

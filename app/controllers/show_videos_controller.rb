@@ -3,21 +3,30 @@ require 'uri'
 
 class ShowVideosController < ApplicationController
 
+  SESSION_KEY_ALL_VIDEOS = "all_videos"
   def init
-    #response = YouTubeApiCallsHelper.get_video_list
-    #@video_list = YouTubeApiCallsHelper.parse_video_list(response.body)
-    #@video_list = sort_by_order(@video_list)
     @featured_video_id="WF1s01ePXLI"
   end
 
   def get_list
-    c = params[:category]
+    category = params[:category]
 
-    response = YouTubeApiCallsHelper.get_video_list
-    @video_list = YouTubeApiCallsHelper.parse_video_list(response.body)
+    @video_list = get_current_list
+    @video_list = ShowVideosHelper.get_list_by_category(category, @video_list)
     @video_list = sort_by_order(@video_list)
 
     render json: @video_list
+  end
+
+  def get_current_list
+    if(session[SESSION_KEY_ALL_VIDEOS] == nil)
+      response =   YouTubeApiCallsHelper.get_video_list
+      video_list = YouTubeApiCallsHelper.parse_video_list(response.body)
+    else
+      video_list = session[SESSION_KEY_ALL_VIDEOS]
+    end
+
+    return  video_list
   end
 
   def save_contact

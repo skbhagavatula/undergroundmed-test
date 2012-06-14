@@ -16,33 +16,35 @@ html {
   color:#000;
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   font-size: 10pt;
+  width: 972px;
 }
 #wrap {
   width:970px;
   margin:0 auto;
 }
 #header {
+  margin: 5px;
   padding:5px 10px;
 }
 h1 {
   margin:0;
 }
-#nav {
+#navigation {
+  margin: 5px;
   padding:5px 10px;
 }
-#nav ul {
-  margin:0;
-  padding:0;
-  list-style:none;
-}
-#nav li {
-  display:inline;
-  margin:0;
-  padding:0;
-}
+/*#nav ul {*/
+  /*padding:0;*/
+  /*list-style:none;*/
+/*}*/
+/*#nav li {*/
+  /*display:inline;*/
+  /*margin:0;*/
+  /*padding:0;*/
+/*}*/
 #main {
   float:left;
-  width:705px;
+  width:700px;
   padding:10px;
 }
 h2 {
@@ -67,9 +69,9 @@ h2 {
 /*used to center the image in the header*/
 .outer {
   width: 950px;
-  border: 1px solid red;
+  border: 1px solid black;
   overflow: hidden;
-  *position: relative;
+  position: relative;
 }
 .inner {
   float: left;
@@ -91,11 +93,6 @@ img {
   border-color: #ccc;
   padding: 2px;
 }
-
-/*body*/
-/*{*/
-  /*line-height: 1.6em;*/
-/*}*/
 
 #videoListTable
 {

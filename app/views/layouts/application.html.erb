@@ -12,7 +12,6 @@
 
   <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css">
 
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
 
   <!--style and two column layout come from:  http://www.456bereastreet.com/lab/developing_with_web_standards/csslayout/2-col/ -->
@@ -22,6 +21,7 @@
 <div id="progressDlg">
   <%= image_tag("progress.gif") %>
 </div>
+<div id="infoDlg"></div>
 <div id="header">
   <div class="outer>">
     <div class="inner">
@@ -29,7 +29,29 @@
     </div>
   </div>
 </div>
-<div id="nav"> </div>
+<div id="navigation">
+  <nav>
+  <ul>
+    <li><a href="#">Videos</a>
+      <ul>
+        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::ALL %>')"><%= VideoAttributes::ALL %></a></li>
+        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::MEDICINE %>')" ><%= VideoAttributes::MEDICINE %></a></li>
+        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::OBGYN %>')"><%= VideoAttributes::OBGYN %></a></li>
+        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::PEDIATRICS %>')"><%= VideoAttributes::PEDIATRICS %></a></li>
+        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::RADIOLOGY %>')"><%= VideoAttributes::RADIOLOGY %></a></li>
+        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::SURGERY %>')"><%= VideoAttributes::SURGERY %></a></li>
+        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::OTHER %>')"><%= VideoAttributes::OTHER %></a></li>
+      </ul>
+    </li>
+    <li><a href="#">About</a>
+      <ul>
+        <li><a href="#" onclick="aboutFounders()">Founders</a></li>
+        <li><a href="#" onclick="aboutCollaboration()">Collaboration</a></li>
+        </ul>
+        </li>
+      </ul>
+  </nav>
+</div>
 <div id="wrap">
 
   <%= yield %>

@@ -27,7 +27,7 @@ function buildTable(videolist) {
 
   // Remove all table rows
   var tableRows = table.rows;
-  for (var i = tableRows.length-2; i >= 0; i--) {
+  for (var i = tableRows.length-1; i >= 1; i--) {
     table.deleteRow(i);
   }
 
