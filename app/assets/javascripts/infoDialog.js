@@ -6,9 +6,10 @@ function createInfoDialog() {
       .dialog({
         autoOpen: false,
         modal: true,
-        hide: "slide",
+        show: true,
+        hide: true,
         width: 500,
-        buttons: { "Cancel": function() { $(this).dialog("close"); } }
+        buttons: { "Close": function() { $(this).dialog("close"); } }
       });
 }
 
@@ -18,7 +19,7 @@ function showinfoDialog(msg, title) {
 
     infoDialog.html(htmlMsg);
     $('#infoDlg').dialog('option', 'title', title);
-    infoDialog.dialog('open');
+    $('#infoDlg').dialog('open');
   }
 }
 

@@ -47,11 +47,6 @@ function submitContact()    {
   });
 }
 
-function showMsg(msg) {
-  hideProgressDialog();
-  alert(msg);
-}
-
 function validateContact() {
   var validate = true;
 

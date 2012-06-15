@@ -5,6 +5,7 @@ var firstPosition = null;
 var lastPosition = null;
 
 function getVideoList(value)    {
+  showProgressDialog("Getting list of " + value + " videos...");
 
   $.ajax({
     url: "get_list",
@@ -12,9 +13,10 @@ function getVideoList(value)    {
     data:  { category: value },
     success: function(data, status, xhr) {
       buildTable(data) ;
+      hideProgressDialog();
     },
     error: function(xhr, status, error) {
-      alert(error);
+      showMsg(error);
     }
   });
 }

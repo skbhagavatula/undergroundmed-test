@@ -7,17 +7,20 @@ function createProgressDialog() {
     .dialog({
       autoOpen: false,
       modal: true,
-      hide: "slide"
+      show: true,
+      hide: true,
+      title: "Please wait...."
     });
-  $(".ui-dialog-titlebar").hide();
+  $(".ui-dialog-titlebar-close").hide();
 }
 
 function showProgressDialog(msg) {
   if(progressDialog != null) {
-//    var imgsrc = "<img src='"+ "/assets/progress.gif"  + "'/>" ;
+    var imgsrc = "<img " + "alt='here'" + " src=" + "'/assets/progress.gif'"  + "/>" ;
     var htmlMsg =  "<p>"+msg+"</p>";
 
     progressDialog.html(htmlMsg);
+//    $("#imgArea").innerHTML =  imgsrc;
     progressDialog.dialog('open');
   }
 }
@@ -26,3 +29,9 @@ function hideProgressDialog() {
   if(progressDialog != null)
     progressDialog.dialog("close");
 }
+
+function showMsg(msg) {
+  hideProgressDialog();
+  alert(msg);
+}
+
