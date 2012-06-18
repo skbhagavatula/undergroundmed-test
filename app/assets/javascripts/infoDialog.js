@@ -15,9 +15,7 @@ function createInfoDialog() {
 
 function showinfoDialog(msg, title) {
   if(infoDialog != null) {
-    var htmlMsg =  "<p>"+msg+"</p>";
-
-    infoDialog.html(htmlMsg);
+    $("#infoHTML").html(msg) ;
     $('#infoDlg').dialog('option', 'title', title);
     $('#infoDlg').dialog('open');
   }

@@ -16,11 +16,8 @@ function createProgressDialog() {
 
 function showProgressDialog(msg) {
   if(progressDialog != null) {
-    var imgsrc = "<img " + "alt='here'" + " src=" + "'/assets/progress.gif'"  + "/>" ;
-    var htmlMsg =  "<p>"+msg+"</p>";
-
-    progressDialog.html(htmlMsg);
-//    $("#progressImg").style.display="block";
+    $("#progressText").text(msg) ;
+//    $("#progressImg").attr("src", "/images/progress.gif") ;
     progressDialog.dialog('open');
   }
 }

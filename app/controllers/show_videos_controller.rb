@@ -15,6 +15,7 @@ class ShowVideosController < ApplicationController
     @video_list = get_current_list
     @video_list = ShowVideosHelper.get_list_by_category(category, @video_list)
     @video_list = sort_by_order(@video_list)
+    #session[SESSION_KEY_ALL_VIDEOS] = @video_list
 
     render json: @video_list
   end
