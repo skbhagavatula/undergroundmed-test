@@ -15,7 +15,8 @@
 </head>
 <body>
 <div id="progressDlg">
-  <div id="imgArea>"><%= image_tag("progress.gif") %></div>
+  <!--<div id="imgArea>"><%= image_tag("progress.gif") %></div>-->
+  <img id="progressImg" src="/assets/progress.gif" />
 </div>
 <div id="infoDlg"></div>
 <div id="header">
@@ -41,6 +42,7 @@
     </li>
     <li><a href="#">About</a>
       <ul>
+        <li><a href="#" onclick="aboutMission()">Our Mission</a></li>
         <li><a href="#" onclick="aboutFounders()">Founders</a></li>
         <li><a href="#" onclick="aboutCollaboration()">Collaboration</a></li>
         </ul>

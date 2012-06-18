@@ -20,7 +20,7 @@ function showProgressDialog(msg) {
     var htmlMsg =  "<p>"+msg+"</p>";
 
     progressDialog.html(htmlMsg);
-//    $("#imgArea").innerHTML =  imgsrc;
+//    $("#progressImg").style.display="block";
     progressDialog.dialog('open');
   }
 }

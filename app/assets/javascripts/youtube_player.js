@@ -2,6 +2,7 @@ function loadVideo(id) {
   var videoID = id
   var video = findVideoByid(id);
   currentPosition = video.order;
+  showVideoTitle(id);
 
   if(ytplayer) {
     ytplayer.loadVideoById(videoID);
