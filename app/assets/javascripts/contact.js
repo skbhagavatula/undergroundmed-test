@@ -29,7 +29,7 @@ function submitContact()    {
   var email =  $("#email").attr("value") ;
 
   $.ajax({
-    url: "save_contact",
+    url: "show_videos/save_contact",
     type: "POST",
     dataType: 'json',
     data:  { video: makeVideo,
