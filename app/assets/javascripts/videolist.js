@@ -8,7 +8,7 @@ function getVideoList(value)    {
   showProgressDialog("Getting list of " + value + " videos...");
 
   $.ajax({
-    url: "get_list",
+    url: "show_videos/get_list",
     dataType: 'json',
     data:  { category: value },
     success: function(data, status, xhr) {
