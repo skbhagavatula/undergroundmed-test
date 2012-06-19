@@ -42,7 +42,11 @@ function buildTable(videolist) {
      var link = createAnchor(videolist[i]);
      createElementCell(row, "", link, "");
 
-     createTextCell(row, "", videolist[i].avg_rating, "");
+     var avg_rating = "Not rated";
+     if(videolist[i].avg_rating != undefined && videolist[i].avg_rating.length > 0)
+      avg_rating = videolist[i].avg_rating;
+
+     createTextCell(row, "", avg_rating, "");
      createTextCell(row, "", videolist[i].view_count, "");
      createTextCell(row, "", videolist[i].category, "");
    }
