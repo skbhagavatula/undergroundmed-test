@@ -31,13 +31,9 @@
   <ul>
     <li><a href="#">Videos</a>
       <ul>
-        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::ALL %>')"><%= VideoAttributes::ALL %></a></li>
-        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::MEDICINE %>')" ><%= VideoAttributes::MEDICINE %></a></li>
-        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::OBGYN %>')"><%= VideoAttributes::OBGYN %></a></li>
-        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::PEDIATRICS %>')"><%= VideoAttributes::PEDIATRICS %></a></li>
-        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::RADIOLOGY %>')"><%= VideoAttributes::RADIOLOGY %></a></li>
-        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::SURGERY %>')"><%= VideoAttributes::SURGERY %></a></li>
-        <li><a href="#" onclick="getVideoList('<%=VideoAttributes::OTHER %>')"><%= VideoAttributes::OTHER %></a></li>
+        <%@category_list.each do |category| %>
+            <li><a href="#" onclick="getVideoList('<%=category%>')"><%= category%></a></li>
+        <% end %>
       </ul>
     </li>
     <li><a href="#">About</a>

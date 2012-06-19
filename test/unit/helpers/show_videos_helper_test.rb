@@ -51,5 +51,17 @@ class ShowVideosHelperTest < ActionController::TestCase
     assert_equal(25, video_list.length)
   end
 
+  test "get_category_list"   do
+    xml =  File.read("test/fixtures/videolist.xml");
+    ShowVideosController.stubs(:get_current_list).returns(YouTubeApiCallsHelper.parse_video_list(xml))
+    all_videos_list =  ShowVideosController.get_current_list
+
+    assert_equal(25, all_videos_list.length)
+
+    categories = @controller.get_category_list(all_videos_list)
+    assert_equal(6, categories.length )
+  end
+
+
 
 end

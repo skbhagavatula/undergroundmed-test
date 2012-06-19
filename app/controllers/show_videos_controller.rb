@@ -7,6 +7,20 @@ class ShowVideosController < ApplicationController
   def init
     @featured_video_id="WF1s01ePXLI"
     @featured_video_title="Insulin Sliding Scale Explaned!"
+    video_list = get_current_list
+    @category_list =  get_category_list(video_list)
+  end
+
+  def get_category_list  (video_list)
+    categories =[ "All" ]
+
+    for video in video_list
+      if !categories.include?(video.category)
+         categories.push(video.category)
+      end
+    end
+
+    return sort_by_category(categories)
   end
 
   def get_list
@@ -50,6 +64,11 @@ class ShowVideosController < ApplicationController
 
   def sort_by_order(videolist)
     sorted_list = videolist.sort { |a,b| a.order.to_i <=> b.order.to_i }
+    return sorted_list
+  end
+
+  def sort_by_category(category_list)
+    sorted_list = category_list.sort { |a,b| a <=> b }
     return sorted_list
   end
 
