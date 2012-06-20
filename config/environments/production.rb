@@ -73,8 +73,8 @@ Undergroundmed::Application.configure do
       port: 587,
       domain: "localhost:3000",
       authentication: "plain",
-      user_name: "iintimetest@gmail.com",
-      password: "iintimeorg",
+      user_name: "umed.iintime@gmail.com",
+      password: "collaborate",
       enable_starttls_auto: true
   }
 end
