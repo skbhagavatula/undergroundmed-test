@@ -71,7 +71,7 @@ Undergroundmed::Application.configure do
   config.action_mailer.smtp_settings = {
       address: "smtp.gmail.com",
       port: 587,
-      domain: "localhost:3000",
+      domain: "herokuapp.com",
       authentication: "plain",
       user_name: "umed.iintime@gmail.com",
       password: "collaborate",
