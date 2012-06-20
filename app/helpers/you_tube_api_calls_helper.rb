@@ -3,14 +3,15 @@ module YouTubeApiCallsHelper
   require "rexml/document"
 
   BASEURI = "http://gdata.youtube.com/feeds/api/videos"
-  VIDEOLISTARGS = "?q=undergroundmed&v=2&start-index=1&max-results=50&author=UndergroudMed"
+  VIDEOLISTARGS = "?q=undergroundmed&v=2&author=UndergroudMed"
   THUMBNAIL_NAME = "mqdefault"
+  MAXRESULTS = 50
 
-  def YouTubeApiCallsHelper.get_video_list
+  def YouTubeApiCallsHelper.get_video_list  (start_index)
     uri = URI.parse(BASEURI)
     host = uri.host
     port = uri.port
-    path = uri.path+VIDEOLISTARGS
+    path = uri.path+build_args(start_index)
 
     http = Net::HTTP.new(host, port)
     response = http.get(path)
@@ -18,9 +19,13 @@ module YouTubeApiCallsHelper
     return response
   end
 
-    def YouTubeApiCallsHelper.parse_video_list (xml)
+  def YouTubeApiCallsHelper.build_args(start_index)
+    args =  VIDEOLISTARGS + "&start-index=" + start_index.to_s + "&max-results=" + MAXRESULTS.to_s
+    return args
+  end
+
+    def YouTubeApiCallsHelper.parse_video_list (xml, video_list)
     doc = REXML::Document.new xml
-    video_list = []
 
     doc.elements.each("feed/entry") do |element|
       video =  parse_one_entry(element)
@@ -31,7 +36,6 @@ module YouTubeApiCallsHelper
       end
 
       number_unknown_videos(video_list)
-    return video_list
   end
 
   def YouTubeApiCallsHelper.parse_one_entry(element)
@@ -94,4 +98,14 @@ module YouTubeApiCallsHelper
       end
     end
   end
+
+  def YouTubeApiCallsHelper.get_total_results(xml)
+    doc = REXML::Document.new xml
+
+    element = doc.root.elements['openSearch:totalResults']
+    total_results = element.text.to_i
+
+    return total_results
+  end
+
 end

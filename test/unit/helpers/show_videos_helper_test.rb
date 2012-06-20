@@ -35,26 +35,28 @@ class ShowVideosHelperTest < ActionController::TestCase
 
   test "get_list_by_category"   do
     xml =  File.read("test/fixtures/videolist.xml");
-    ShowVideosController.stubs(:get_current_list).returns(YouTubeApiCallsHelper.parse_video_list(xml))
-    all_videos_list =  ShowVideosController.get_current_list
+    all_video_list = []
+    ShowVideosController.stubs(:get_current_list).returns(YouTubeApiCallsHelper.parse_video_list(xml, all_video_list))
+    ShowVideosController.get_current_list
 
-    assert_equal(25, all_videos_list.length)
+    assert_equal(25, all_video_list.length)
 
-    video_list = ShowVideosHelper.get_list_by_category(VideoAttributes::RADIOLOGY, all_videos_list)
+    video_list = ShowVideosHelper.get_list_by_category(VideoAttributes::RADIOLOGY, all_video_list)
     assert_equal(9, video_list.length)
 
     for video in video_list
       assert_equal(true, @radiology_ids.include?(video.yt_id))
     end
 
-    video_list = ShowVideosHelper.get_list_by_category(VideoAttributes::ALL, all_videos_list)
+    video_list = ShowVideosHelper.get_list_by_category(VideoAttributes::ALL, all_video_list)
     assert_equal(25, video_list.length)
   end
 
   test "get_category_list"   do
     xml =  File.read("test/fixtures/videolist.xml");
-    ShowVideosController.stubs(:get_current_list).returns(YouTubeApiCallsHelper.parse_video_list(xml))
-    all_videos_list =  ShowVideosController.get_current_list
+    all_videos_list = []
+     ShowVideosController.stubs(:get_current_list).returns(YouTubeApiCallsHelper.parse_video_list(xml, all_videos_list))
+     ShowVideosController.get_current_list
 
     assert_equal(25, all_videos_list.length)
 
