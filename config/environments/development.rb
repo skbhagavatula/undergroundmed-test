@@ -48,15 +48,4 @@ Undergroundmed::Application.configure do
       enable_starttls_auto: true
   }
 
-  #config.action_mailer.smtp_settings = {
-  #    address: "smtpout.secureserver.net",
-  #    port: 80,
-  #    #  address: "relay-hosting.secureserver.net",
-  #    #  port: 25,
-  #    domain: "med-u.org",
-  #    authentication: :plain,
-  #    user_name: "subscriptions@med-u.org",
-  #    password: "iInTIME"
-  #}
-
 end
