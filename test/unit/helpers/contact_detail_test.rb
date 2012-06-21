@@ -23,9 +23,9 @@ class ContactDetailTest < Test::Unit::TestCase
 
   def test_mail_contact_detail
     mail = MailContactDetail.send_detail(@mail_detail)
-    assert_equal([MailContactDetail::FROM], mail.from)
-    assert_equal([MailContactDetail::TO], mail.to)
-    assert_equal(MailContactDetail::SUBJECT, mail.subject)
+    assert_equal([MailContactDetail::FROM_DEV], mail.from)
+    assert_equal([MailContactDetail::TO_DEV], mail.to)
+    assert_equal(MailContactDetail::SUBJECT_DEV, mail.subject)
     has_comment =  mail.body.encoded.include? @comment
     assert_equal(true, has_comment)
   end
