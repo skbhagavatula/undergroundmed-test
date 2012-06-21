@@ -15,9 +15,9 @@ class MailContactDetail < ActionMailer::Base
         @to_address =  TO_PRODUCTION
         @subject =   SUBJECT_PRODUCTION
 
-        env = Rails.env()
+        rack_env = ENV['RACK_ENV']
 
-        if(env == "development" || env =="test")
+        if(rack_env == "development" || rack_env ==nil)
           @from_address =   FROM_DEV
           @to_address =  TO_DEV
           @subject  =   SUBJECT_DEV
