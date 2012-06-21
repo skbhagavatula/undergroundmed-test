@@ -8,12 +8,13 @@ class MailContactDetail < ActionMailer::Base
   TO_PRODUCTION =  "umed.iintime@gmail.com"
   SUBJECT_PRODUCTION = "New Contact"
 
-  @from_address =   FROM_PRODUCTION
-  @to_address =  TO_PRODUCTION
-  @subject =   SUBJECT_PRODUCTION
 
   def send_detail  (contact_detail)
         @contact_detail = contact_detail
+        @from_address =   FROM_PRODUCTION
+        @to_address =  TO_PRODUCTION
+        @subject =   SUBJECT_PRODUCTION
+
         env = Rails.env()
 
         if(env == "development" || env =="test")
