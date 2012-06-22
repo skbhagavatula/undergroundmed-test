@@ -48,7 +48,6 @@ function buildTable(videolist) {
 
      createTextCell(row, "", avg_rating, "");
      createTextCell(row, "", videolist[i].view_count, "");
-     createTextCell(row, "", videolist[i].category, "");
    }
 }
 
@@ -59,9 +58,11 @@ function createImg(video) {
   img.height = "50";
   img.width = "90";
   img.style.cursor="pointer";
-  img.style.padding = "0";
-  img.style.margin = "0";
-  img.style.verticalAlign = "top";
+  img.style.padding = "3px";
+  img.style.marginLeft = "auto";
+  img.style.marginRight = "auto";
+  img.style.display = "block";
+//  img.style.verticalAlign = "top";
   img.title = "Duration: " + video. duration_in_minutes;
 
   addVideoLoadOnClick(img, video.yt_id) ;
@@ -72,7 +73,7 @@ function createImg(video) {
 function createAnchor(video) {
   var anchor = document.createElement('a');
 
-  anchor.innerHTML = video.title;
+  anchor.innerHTML = video.title+"<br/><span class='categorySpan'> "+video.category +"</span>";
 
   addVideoLoadOnClick(anchor, video.yt_id) ;
 
@@ -143,6 +144,6 @@ function showVideoTitle(id) {
   var video = findVideoByid(id);
 
   $("#fv_header").hide();
-  $("#fv_title").text(video.title);
+//  $("#fv_title").text(video.title);
 
 }

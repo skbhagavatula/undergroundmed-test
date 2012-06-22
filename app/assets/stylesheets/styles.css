@@ -25,72 +25,48 @@ html {
 #header {
   margin: 5px;
   padding:5px 10px;
+  height: 78px;
+  background-color: #264061;
 }
 h1 {
   margin:0;
 }
 #navigation {
-  margin: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding:5px 10px;
+  background-color: #d8e4f0;
 }
-/*#nav ul {*/
-  /*padding:0;*/
-  /*list-style:none;*/
-/*}*/
-/*#nav li {*/
-  /*display:inline;*/
-  /*margin:0;*/
-  /*padding:0;*/
-/*}*/
+
+.welcomeHeader {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #d8e4f0;
+}
+
 #main {
   float:left;
-  width:700px;
-  padding:10px;
-}
-h2 {
-  margin:0 0 1em;
-}
-#sidebar {
-  float:right;
-  width:225px;
   padding:10px;
 }
 #footer {
   clear:both;
-  padding:5px 10px;
 }
-#footer p {
-  margin:0;
-}
-* html #footer {
-  height:1px;
-}
-
-/*used to center the image in the header*/
-.outer {
-  width: 950px;
-  border: 1px solid black;
-  overflow: hidden;
-  position: relative;
-}
-.inner {
-  float: left;
-  position: relative;
-  left: 50%;
-}
-img {
-  display: block;
-  position: relative;
-  left: -50%;
+/* styles for the player area */
+/* table that contains the player and buttons */
+.playerTable
+{
+  margin-left:auto;
+  margin-right:auto;
+  width:95%;
 }
 
 /*video table*/
 .videoListDiv {
   height: 400px;
   overflow: auto;
-  border:solid;
-  border-width:2px;
-  border-color: #ccc;
+  /*border:solid;*/
+  /*border-width:2px;*/
+  /*border-color: #ccc;*/
   padding: 2px;
 }
 
@@ -99,8 +75,9 @@ img {
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   font-size: 12px;
   background: #fff;
-  margin: 10px;
-  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  width: 95%;
   border-collapse: collapse;
   text-align: left;
 }
@@ -108,22 +85,38 @@ img {
 {
   font-size: 14px;
   font-weight: normal;
-  color: #039;
-  padding: 10px 8px;
-  border-bottom: 2px solid #6678b1;
+  color: black;
+  padding: 2px 8px;
+  border-bottom: 2px solid #d8e4f0;
 }
 #videoListTable td
 {
-  border-bottom: 1px solid #ccc;
-  color: #669;
-  padding: 6px 8px;
-}
-#videoListTable tbody tr:hover td
-{
-  color: #009;
+  /*border-bottom: 1px solid #ccc;*/
+  color: black;
+  padding: 2px 8px;
 }
 
-.smallText
-{
-  font-size: 8px;
+#videoListTable a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#videoListTable a:hover {
+  text-decoration: none;
+  cursor:pointer;
+  color: black;
+  font-weight: bold;
+}
+
+.categorySpan {
+  font-weight:normal;
+}
+
+/* misc styles */
+.imgButtons {
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  cursor:pointer;
 }

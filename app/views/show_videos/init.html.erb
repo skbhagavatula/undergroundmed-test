@@ -29,22 +29,24 @@
 </script>
 
 <div id="main">
-   <b> Welcome to UndergroundMed! </b><br/>
+
+    <div id="fv_header" style="margin-left:auto; margin-right:auto; width:150px;"><b>Featured Video</b></div>
+  <table class="playerTable">
+    <tr>
+      <td width="10%">
+        <img src="assets/previousVideo.jpg" onclick="getPreviousVideo()" class="imgButtons"/>
+      <td style="text-align: center">
+            <div id="videoDiv" class="videoDivClass">Loading...</div>
+            <div id="videoControls"/>
+      </td>
+      <td width="10%">
+       <img src="assets/nextVideo.jpg" onclick="getNextVideo()" class="imgButtons"/>
+    </tr>
+  </table>
+
+    <div class="welcomeHeader"><b> Welcome to UndergroundMed! </b></div>
     Clinical concepts taught through interactive, high-yield, time-sensitive videos.
     All videos created by students and reviewed by experienced faculty for factual correctness.
-     <p/>
-    <span id="fv_header"><b>Our Featured Video: </b></span> <span id=fv_title><%= @featured_video_title %></span>
-    <table>
-      <tr>
-        <td><div id="videoDiv">Loading...</div></td>
-        <td valign="top">
-          <div id="videoControls"/>
-        </td>
-      </tr>
-    </table>
-    <button type="button"  onclick="getPreviousVideo()">Previous</button>
-    <button type="button"  onclick="getNextVideo()">Next</button>
-     <p/>
     <div class="videoListDiv">
       <table id="videoListTable">
         <tr>
@@ -52,30 +54,8 @@
           <th align="left">Title</th>
           <th>Rating</th>
           <th>Views</th>
-          <th>Category</th>
         </tr>
        </table>
     </div>
 
   </div>
-  <div id="sidebar" style="border:solid; border-width:2px; border-color: #ccc; padding: 2px; margin-top:10px">
-    <b>Want to help?</b><br/>
-
-    Yes, I would like to help by:<br/>
-    <input type="checkbox" id="makeVideo"/>Making videos<br/>
-    <input type="checkbox" id="reviewVideo">Reviewing Videos <br/>
-    <input type="checkbox" id="addToList">Just keep me informed<br/>
-
-     Comments:<br/>
-      <textarea id="comments" rows="6" style="width:98%; padding:2px;"></textarea><br/>
-
-       Name: <input type="text" id="name"/> <br/>
-       Email*<input type="text" id="email"/>  <br/>
-
-        <span class="smallText">*Required</span>  <br/>
-
-         <button type="button" onclick="saveContact()">I'd like to help</button>
-
-  </div>
-
-
