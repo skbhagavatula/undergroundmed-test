@@ -68,6 +68,7 @@ h1 {
   height: 400px;
   overflow: auto;
   padding: 2px;
+  margin: 10px 3px;
 }
 
 #videoListTable

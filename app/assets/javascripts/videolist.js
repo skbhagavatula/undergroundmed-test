@@ -3,6 +3,8 @@ var currentVideoList = null;
 var currentPosition = null;
 var firstPosition = null;
 var lastPosition = null;
+var allVideosList = null;
+var allCategories = "All";
 
 function getVideoList(value)    {
   showProgressDialog("Getting list of " + value + " videos...");
@@ -13,6 +15,8 @@ function getVideoList(value)    {
     data:  { category: value },
     success: function(data, status, xhr) {
       buildTable(data) ;
+      if(value == allCategories)
+        allVideosList = data;
       hideProgressDialog();
     },
     error: function(xhr, status, error) {
@@ -21,6 +25,47 @@ function getVideoList(value)    {
   });
 }
 
+function getVideoListLocal(value) {
+
+  if(allVideosList != null) {
+    var  videoList = new Array();
+
+      if(value != allCategories)  {
+      for(i = 0; i < allVideosList.length; i++) {
+        if(allVideosList[i].category == value)  {
+          videoList.push(allVideosList[i]);
+        }
+      }
+
+      /*
+       mimics ruby <=> (Combined comparison operator).
+       Returns 0 if first operand equals second,
+       1 if first operand is greater than the second
+       and -1 if first operand is less than the second
+       */
+      videoList.sort(function(a,b){
+        return (
+            (parseInt(a.order) < parseInt(b.order)) ? -1 :
+            (parseInt(a.order) > parseInt(b.order)) ? +1 : 0);
+      });
+
+      /* for debugging */
+//      var order = "";
+//      for (j = 0; j < videoList.length; j++) {
+//         order += videoList[j].order + ", ";
+//      }
+  }
+  else {
+        videoList = allVideosList;
+    }
+
+   buildTable(videoList);
+  }
+  else  {
+    getVideoList(value);
+  }
+
+}
 
 function buildTable(videolist) {
   setupPostionParams(videolist);
