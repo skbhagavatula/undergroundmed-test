@@ -14,24 +14,24 @@ var foundersText =
         "at NYU School of Medicine interested in radiology. Outside of the clinic, his academic interests include using technology to " +
         "advance medicine through research and education. Other interests include tennis, basketball, and Matlab.";
 
+
 var collaborationText = "The site is a collaboration between UndergroundMed and MedU....." ;
 
-var missionStatement = "Our ultimate goal is to create a site dedicated to the needs of the modern medical student. Our videos are " +
-    "designed to be: fun, interactive, practical, contextual, high-yield, and time sensitive, and we are always looking for new ways to" +
-    " improve on our work." +
+var missionStatement ="Our ultimate goal is to eliminate the frustrating barriers that surrounds medical education and to make it more " +
+    "accessible to all students by creating a site dedicated to the needs of the modern medical student.  Our videos are designed to be: fun, " +
+    "interactive, practical, contextual, high-yield, and time sensitive, and we are always looking for new ways to improve on our work.  " +
+    "The intent of our videos is not to teach every detail in existence, but to instead provide a contextual thinking framework that students" +
+    " can use to build their medical knowledge.  Rest assured that factual correctness and quality are very important to us - as our videos " +
+    "are checked for factual correctness by experienced and accomplished medical educators. " +
     "<p/>" +
-  "The intent of our videos is not to teach every detail in existence, but to instead provide a contextual thinking framework " +
-    "that students can use to build their medical knowledge. Quality is also very important to us - as our videos are checked for " +
-    "factual correctness by experienced and accomplished medical educators." +
+    "We are, and always intend to be, a student run organization - but one that also has support from nationally recognized and " +
+    "accredited medical organizations. " +
     "<p/>" +
-    "We are, and always intend to be, a student run organization - but one that also has support from nationally recognized " +
-    "and accredited medical organizations." +
-    "<p/>" +
-    "If you would like to join us in our mission, please contact us! And please feel free to offer any advice or suggestions " +
-    "on how we can improve your UndergroundMed experience!" ;
+    "If you would like to join us in our mission, please contact us!  And please feel free to offer any advice or suggestions on how we " +
+    "can improve your UndergroundMed experience!";
 
 function aboutFounders() {
-  showinfoDialog(foundersText, "Founders");
+  showinfoDialog(foundersText, "Meet the Founders");
 }
 
 function aboutCollaboration() {
