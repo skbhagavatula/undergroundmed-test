@@ -1,13 +1,4 @@
 
-function saveContact() {
-
-  // validate have email and it's valid
-  // if not, show a message and return
-     if(validateContact())   {
-      submitContact();
-     }
-}
-
 function submitContact()    {
   showProgressDialog("Saving your selections...");
 
@@ -39,7 +30,7 @@ function submitContact()    {
                 name: encodeURIComponent(encodeHtml(name)),
                 email: encodeURIComponent(encodeHtml(email)) },
     success: function(data, status, xhr) {
-      showMsg(data) ;
+      showSaveMsg(data[0], "Saved") ;
     },
     error: function(xhr, status, error) {
       showMsg(error);
@@ -65,4 +56,45 @@ function validateContact() {
     }
 
   return validate;
+}
+
+var contactDialog = null;
+
+function createContactDialog() {
+
+  contactDialog = $("#contactDlg")
+      .dialog({
+        autoOpen: false,
+        modal: true,
+        show: true,
+        hide: true,
+        width: 500,
+        title: "Get Involved",
+        buttons: { "I'd like to help": doValidate , "Cancel": function() { $(this).dialog("close"); } }
+      });
+}
+
+var doValidate = function () {
+  if (validateContact()) {
+    $("#contactDlg").dialog("close");
+    submitContact();
+  }
+  else return false ;
+}
+
+function showContactDialog() {
+  if(contactDialog != null) {
+    $('#contactDlg').dialog('open');
+  }
+}
+
+function hideContactDialog() {
+  if(contactDialog != null) {
+    $('#contactDlg').dialog('close');
+  }
+}
+
+function showSaveMsg( msg, title) {
+  hideProgressDialog();
+  showinfoDialog(msg, title);
 }

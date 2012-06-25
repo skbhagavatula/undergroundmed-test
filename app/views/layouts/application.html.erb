@@ -16,30 +16,35 @@
 <body>
 <div id="progressDlg">
    <div id="progressText" ></div>
-   <div><img id="progressImg"/></div>
+   <!--<div><img id="progressImg"/></div>-->
 </div>
 <div id="infoDlg"><div id="infoHTML" ></div></div></div>
 <div id="header">  </div>
 </div>
 <div id="navigation">
-  <nav>
-  <ul>
-    <li><a href="#">Videos</a>
-      <ul>
-        <%@category_list.each do |category| %>
-            <li><a href="#" onclick="getVideoList('<%=category%>')"><%= category%></a></li>
-        <% end %>
-      </ul>
-    </li>
-    <li><a href="#">About</a>
-      <ul>
-        <li><a href="#" onclick="aboutMission()">Our Mission</a></li>
-        <li><a href="#" onclick="aboutFounders()">Founders</a></li>
-        <li><a href="#" onclick="aboutCollaboration()">Collaboration</a></li>
+  <div style="margin-left:auto; margin-right:auto; width:275px;">
+    <div id="mainNav">
+    <ul>
+      <li><a href="#">Videos</a>
+        <ul>
+          <%@category_list.each do |category| %>
+              <li><a href="#" onclick="getVideoList('<%=category%>')"><%= category%></a></li>
+          <% end %>
         </ul>
-        </li>
-      </ul>
-  </nav>
+      </li>
+      <li>|</li>
+      <li><a href="#" onclick="showContactDialog()">Get Involved</a>
+      <li>|</li>
+      <li><a href="#">About</a>
+        <ul>
+          <li><a href="#" onclick="aboutMission()">Our Mission</a></li>
+          <li><a href="#" onclick="aboutFounders()">Founders</a></li>
+          <li><a href="#" onclick="aboutCollaboration()">Collaboration</a></li>
+          </ul>
+          </li>
+        </ul>
+      </div>
+  </div>
 </div>
 <div id="wrap">
 
@@ -49,5 +54,23 @@
 
   <div id="footer"></div>
 </div>
+
+<div id="contactDlg">
+  <b>Want to help?</b><br/>
+
+  Yes, I would like to help by:<br/>
+  <input type="checkbox" id="makeVideo"/>Making videos<br/>
+  <input type="checkbox" id="reviewVideo">Reviewing Videos <br/>
+  <input type="checkbox" id="addToList">Just keep me informed<br/>
+
+  Comments:<br/>
+  <textarea id="comments" rows="6" style="width:98%; padding:2px;"></textarea><br/>
+
+  Name: <input type="text" id="name"/> <br/>
+  Email*<input type="text" id="email"/>  <br/>
+
+  <span class="smallText">*Required</span>  <br/>
+</div>
+
 </body>
 </html>
