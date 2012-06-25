@@ -21,3 +21,7 @@ function showinfoDialog(msg, title) {
   }
 }
 
+function hideInfoDialog() {
+  if(infoDialog != null)
+    infoDialog.dialog("close");
+}

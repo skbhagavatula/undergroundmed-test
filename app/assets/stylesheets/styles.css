@@ -14,7 +14,8 @@ html {
   margin:0;
   padding:0;
   color:#000;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+
   font-size: 10pt;
   width: 972px;
 }
@@ -37,7 +38,7 @@ h1 {
   margin-right: 5px;
   padding:5px 10px;
   background-color: #d8e4f0;
-  height: 15px;
+  height: 18px;
 }
 
 .welcomeHeader {
@@ -71,7 +72,7 @@ h1 {
 
 #videoListTable
 {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   font-size: 12px;
   background: #fff;
   margin-left:auto;
@@ -143,6 +144,7 @@ h1 {
   padding-top: 2px;
   padding-bottom: 2px;
   color: #268cc4;
+  font-size: 10pt;
 }
 
 #subNav ul, #caseNav ul {
@@ -167,6 +169,7 @@ h1 {
   padding: 1px 5px;
   color: black;
   font-weight: normal;
+  font-size: 14pt;
 }
 
 #mainNav li {

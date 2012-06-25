@@ -15,7 +15,7 @@ var foundersText =
         "advance medicine through research and education. Other interests include tennis, basketball, and Matlab.";
 
 
-var collaborationText = "The site is a collaboration between UndergroundMed and MedU....." ;
+var collaborationText = "The site is a collaboration between UndergroundMed and <a href='#' onclick='openMeduWindow()'>MedU</a>." ;
 
 var missionStatement ="Our ultimate goal is to eliminate the frustrating barriers that surrounds medical education and to make it more " +
     "accessible to all students by creating a site dedicated to the needs of the modern medical student.  Our videos are designed to be: fun, " +
@@ -40,4 +40,9 @@ function aboutCollaboration() {
 
 function aboutMission() {
   showinfoDialog(missionStatement, "Our Mission");
+}
+
+function openMeduWindow() {
+  hideInfoDialog();
+  window.open("http://www.med-u.org/");
 }
