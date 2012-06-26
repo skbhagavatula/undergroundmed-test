@@ -188,7 +188,5 @@ function findVideoByid(yt_id)   {
 function showVideoTitle(id) {
   var video = findVideoByid(id);
 
-  $("#fv_header").hide();
-//  $("#fv_title").text(video.title);
-
+  $("#fv_title").text(video.title);
 }

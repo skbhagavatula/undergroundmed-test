@@ -9,6 +9,7 @@ class VideoAttributes
   OTHER = "Other"
   ALL = "All"
   PSYCH = "Psych"
+  NEURO = "Neuro"
 
   @categories_by_id =  {
     '5uBE4uuTEMQ' => MEDICINE,
@@ -54,7 +55,8 @@ class VideoAttributes
     'xDlwAry1HHY' => OBGYN,
     'vpw0bKOTDrs' => OBGYN,
     'R6XGStFZz_Q' => OBGYN,
-    'MVDKrQorC4A' => PSYCH
+    'MVDKrQorC4A' => PSYCH,
+    '5O4eZT0J3l0' => NEURO
    }
 
   @order_by_id =  {
@@ -101,7 +103,8 @@ class VideoAttributes
       'xDlwAry1HHY' => 41,
       'vpw0bKOTDrs' => 42,
       'R6XGStFZz_Q' => 43,
-      'MVDKrQorC4A' => 44
+      'MVDKrQorC4A' => 44,
+      '5O4eZT0J3l0' => 45
   }
 
 

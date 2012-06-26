@@ -6,7 +6,7 @@ class ShowVideosController < ApplicationController
   SESSION_KEY_ALL_VIDEOS = "all_videos"
   def init
     @featured_video_id="WF1s01ePXLI"
-    @featured_video_title="Insulin Sliding Scale Explaned!"
+    @featured_video_title="Chest X-Ray Viewing Method - ABCDE"
     video_list = get_current_list
     @category_list =  get_category_list(video_list)
   end

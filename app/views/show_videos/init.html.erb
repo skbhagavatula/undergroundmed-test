@@ -27,11 +27,11 @@
 
 <div id="main">
 
-    <div id="fv_header" style="margin-left:auto; margin-right:auto; width:150px;"><b>Featured Video</b></div>
+  <div style="margin-left:auto; margin-right:auto;width:50%;text-align:center;"><span id="fv_title" ><b>Featured Video:&nbsp;</b><%= @featured_video_title %></span></div>
   <table class="playerTable">
     <tr>
       <td width="10%">
-        <img src="assets/previousVideo.jpg" onclick="getPreviousVideo()" class="imgButtons"/>
+        <img src="assets/PreviousVid.png" onclick="getPreviousVideo()" class="imgButtons"/>
       <td style="text-align: center">
             <div id="videoDiv" class="videoDivClass">Loading...</div>
             <div id="videoControls"/>

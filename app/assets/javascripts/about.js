@@ -15,7 +15,10 @@ var foundersText =
         "advance medicine through research and education. Other interests include tennis, basketball, and Matlab.";
 
 
-var collaborationText = "The site is a collaboration between UndergroundMed and <a href='#' onclick='openMeduWindow()'>MedU</a>." ;
+var collaborationText = "This site is a collaboration between UndergroundMed, a team of medical students, and <a href='#' onclick='openMeduWindow()'>MedU</a>, " +
+    "a non-profit with a mission of advancing medical education through the innovative use of technology.  All site content was " +
+    "written and produced by UndergroundMed; the web site is hosted and maintained by MedU in support of UndergroundMed's " +
+    "novel approach to teaching and building a community of student medical educators. ";
 
 var missionStatement ="Our ultimate goal is to eliminate the frustrating barriers that surrounds medical education and to make it more " +
     "accessible to all students by creating a site dedicated to the needs of the modern medical student.  Our videos are designed to be: fun, " +

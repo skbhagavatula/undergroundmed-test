@@ -26,7 +26,7 @@ function loadPlayer(id) {
   // The video to load
   var videoID = id
   // Lets Flash from another domain call JavaScript
-  var params = { allowScriptAccess: "always", wmode:"transparent" };
+  var params = { allowScriptAccess: "always", wmode:"transparent" , allowFullScreen: true};
   // The element id of the Flash embed
   var atts = { id: "ytPlayer" };
   // All of the magic handled by SWFObject (http://code.google.com/p/swfobject/)
