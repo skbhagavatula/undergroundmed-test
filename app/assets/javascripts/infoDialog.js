@@ -8,7 +8,7 @@ function createInfoDialog() {
         modal: true,
         show: true,
         hide: true,
-        width: 500,
+        width: 600,
         buttons: { "Close": function() { $(this).dialog("close"); } }
       });
 }
