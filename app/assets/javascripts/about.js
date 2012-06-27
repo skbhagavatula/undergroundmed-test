@@ -5,8 +5,8 @@ var foundersText =
         "In his free time, he enjoys reading, ultimate frisbee, basketball, tennis, ping pong, golf, drawing, among numerous other random things." +
         "<br/>" +
         " <b>Whitney de Luna</b><br/>" +
-        " Graduated from Stanford University with a major in biological sciences. She is currently a 4th year medical student interested " +
-        "in anesthesiology. Outside of the clinic her academic interests include the use of technology for education and global health. " +
+        " Graduated from Stanford University with a major in biological sciences. She is currently a 4th year medical student at the Geisel School of Medicine at Dartmouth interested in anesthesiology.   " +
+        "Outside of the clinic her academic interests include the use of technology for education and global health. " +
         "In her free time she enjoys traveling, cooking, playing tennis and golf." +
         "<br/>" +
         "<b>Sharath Bhagavatula</b><br/>" +
@@ -17,8 +17,8 @@ var foundersText =
 
 var collaborationText = "This site is a collaboration between UndergroundMed, a team of medical students, and <a href='#' onclick='openMeduWindow()'>MedU</a>, " +
     "a non-profit with a mission of advancing medical education through the innovative use of technology.  All site content was " +
-    "written and produced by UndergroundMed; the web site is hosted and maintained by MedU in support of UndergroundMed's " +
-    "novel approach to teaching and building a community of student medical educators. ";
+    "written and produced by UndergroundMed; the web site is hosted and maintained through financial and technical support from MedU in support of UndergroundMed's " +
+    "novel approach to teaching and building a community of student medical educators.";
 
 var missionStatement ="Our ultimate goal is to eliminate the frustrating barriers that surrounds medical education and to make it more " +
     "accessible to all students by creating a site dedicated to the needs of the modern medical student.  Our videos are designed to be: fun, " +

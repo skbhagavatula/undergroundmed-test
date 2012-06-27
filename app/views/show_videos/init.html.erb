@@ -10,7 +10,7 @@
 <script type="text/javascript">
 
   function _run() {
-    loadPlayer("<%=@featured_video_id%>");
+    loadPlayer("<%=$featured_video_id%>");
   }
 
   $(document).ready(function(){
@@ -27,7 +27,7 @@
 
 <div id="main">
 
-  <div style="margin-left:auto; margin-right:auto;width:50%;text-align:center;"><span id="fv_title" ><b>Featured Video:&nbsp;</b><%= @featured_video_title %></span></div>
+  <div style="margin-left:auto; margin-right:auto;width:50%;text-align:center;"><span id="fv_title" ><b>Featured Video:&nbsp;</b><%= $featured_video_title %></span></div>
   <table class="playerTable">
     <tr>
       <td width="10%">

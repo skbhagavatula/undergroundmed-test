@@ -18,7 +18,13 @@ html {
   width: 972px;
   margin-left:auto;
   margin-right:auto;
+  background-color: #EEEEEE;
 }
+
+#innerBody {
+  background-color: #fff;
+}
+
 #wrap {
   margin:0 auto;
 }

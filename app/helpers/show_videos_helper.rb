@@ -16,4 +16,30 @@ module ShowVideosHelper
           return video_list
   end
 
+  def ShowVideosHelper.get_title(id, all_videos)
+    title = nil
+
+    for video in all_videos
+      if(video.yt_id == id)
+        title = video.title
+        break
+      end
+    end
+
+    return title
+  end
+
+  def ShowVideosHelper.find_id(id, all_videos)
+    found = false
+
+    for video in all_videos
+      if(video.yt_id == id)
+        found = true
+        break
+      end
+    end
+
+    return found
+  end
+
 end

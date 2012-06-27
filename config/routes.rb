@@ -6,6 +6,8 @@ Undergroundmed::Application.routes.draw do
 
   post "show_videos/save_contact"
 
+  get "show_videos/update_id"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

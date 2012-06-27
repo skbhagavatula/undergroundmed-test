@@ -64,6 +64,47 @@ class ShowVideosHelperTest < ActionController::TestCase
     assert_equal(6, categories.length )
   end
 
+  test "get_video_title"   do
+    xml =  File.read("test/fixtures/videolist.xml");
+    all_video_list = []
+    ShowVideosController.stubs(:get_current_list).returns(YouTubeApiCallsHelper.parse_video_list(xml, all_video_list))
+    ShowVideosController.get_current_list
 
+    assert_equal(25, all_video_list.length)
+    featured_video_id="F8TYLT0-5fs"
+    featured_video_title="Chest X-Ray Viewing Method - ABCDE"
+
+    title = ShowVideosHelper.get_title(featured_video_id, all_video_list)
+    assert_equal(featured_video_title, title)
+  end
+
+  test "get_title"   do
+    xml =  File.read("test/fixtures/videolist.xml");
+    all_video_list = []
+    ShowVideosController.stubs(:get_current_list).returns(YouTubeApiCallsHelper.parse_video_list(xml, all_video_list))
+    ShowVideosController.get_current_list
+    assert_equal(25, all_video_list.length)
+
+    featured_video_title="Chest X-Ray Viewing Method - ABCDE"
+    @controller.set_featured_id("F8TYLT0-5fs")
+
+    title = @controller.get_featured_title(all_video_list);
+
+    assert_equal(featured_video_title, title)
+  end
+
+  test "find_id" do
+    xml =  File.read("test/fixtures/videolist.xml");
+    all_video_list = []
+    ShowVideosController.stubs(:get_current_list).returns(YouTubeApiCallsHelper.parse_video_list(xml, all_video_list))
+    ShowVideosController.get_current_list
+    assert_equal(25, all_video_list.length)
+
+    found = @controller.find_id("F8TYLT0-5fs", all_video_list)
+    assert_equal(true, found)
+
+    found = @controller.find_id("xyzzy-5fs", all_video_list)
+    assert_equal(false, found)
+  end
 
 end

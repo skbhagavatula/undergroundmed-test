@@ -3,12 +3,15 @@ require 'uri'
 
 class ShowVideosController < ApplicationController
 
+  #$featured_video_title="Chest X-Ray Viewing Method - ABCDE"
+  $featured_video_id="F8TYLT0-5fs"
+  $featured_video_title=""
+
   SESSION_KEY_ALL_VIDEOS = "all_videos"
   def init
-    @featured_video_id="WF1s01ePXLI"
-    @featured_video_title="Chest X-Ray Viewing Method - ABCDE"
     video_list = get_current_list
     @category_list =  get_category_list(video_list)
+    $featured_video_title =  get_featured_title (video_list)
   end
 
   def get_category_list  (video_list)
@@ -102,5 +105,50 @@ class ShowVideosController < ApplicationController
       MailContactDetail.send_detail(contact_detail).deliver
 
   end
+
+  def update_id
+
+    newId = params[:id]
+
+    if newId != nil && newId.length > 0
+      video_list = get_current_list
+
+      if find_id(newId, video_list)
+          set_featured_id(newId)
+          $featured_video_title = get_featured_title(video_list)
+      else
+        puts "update_id: unknown id: " + newId
+      end
+
+    else
+      puts "update_id: no id specified"
+    end
+
+    site = get_redirect_site()
+
+    redirect_to  site
+  end
+
+  def get_redirect_site
+    site = "http://strong-meadow-4887.herokuapp.com/"
+    if ENV['RACK_ENV'] =='development'
+      site = "http://localhost:3000/"
+    end
+    site
+  end
+
+  def get_featured_title (video_list)
+    return  ShowVideosHelper.get_title($featured_video_id, video_list)
+  end
+
+  def set_featured_id (id)
+    $featured_video_id = id
+  end
+
+  def find_id (id, video_list)
+    found = ShowVideosHelper.find_id(id, video_list)
+  end
+
+
 
 end
