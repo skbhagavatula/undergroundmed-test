@@ -9,6 +9,17 @@ function loadVideo(id) {
   }
 }
 
+function cueVideo(id) {
+  var videoID = id
+  var video = findVideoByid(id);
+  currentPosition = video.order;
+  showVideoTitle(id);
+
+  if(ytplayer) {
+    ytplayer.cueVideoById(videoID);
+  }
+}
+
 //This function is called when an error is thrown by the player
 function onPlayerError(errorCode) {
   alert("An error occured of type:" + errorCode);

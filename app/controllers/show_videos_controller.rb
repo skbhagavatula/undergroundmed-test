@@ -6,6 +6,7 @@ class ShowVideosController < ApplicationController
   #$featured_video_title="Chest X-Ray Viewing Method - ABCDE"
   $featured_video_id="F8TYLT0-5fs"
   $featured_video_title=""
+  $xor_key = 6
 
   SESSION_KEY_ALL_VIDEOS = "all_videos"
   def init

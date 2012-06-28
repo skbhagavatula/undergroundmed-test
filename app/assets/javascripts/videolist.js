@@ -18,6 +18,7 @@ function getVideoList(value)    {
       if(value == allCategories)
         allVideosList = data;
       hideProgressDialog();
+      setPositionForFeaturedVideo (featuredVideoId) ;
     },
     error: function(xhr, status, error) {
       showMsg(error);
@@ -54,12 +55,14 @@ function getVideoListLocal(value) {
 //      for (j = 0; j < videoList.length; j++) {
 //         order += videoList[j].order + ", ";
 //      }
+
   }
   else {
         videoList = allVideosList;
     }
 
    buildTable(videoList);
+   cueVideo(videoList[0].yt_id);
   }
   else  {
     getVideoList(value);
@@ -189,4 +192,9 @@ function showVideoTitle(id) {
   var video = findVideoByid(id);
 
   $("#fv_title").text(video.title);
+}
+
+function setPositionForFeaturedVideo(id) {
+  var video = findVideoByid(id);
+  currentPosition = video.order;
 }

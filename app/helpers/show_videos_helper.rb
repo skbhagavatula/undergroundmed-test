@@ -1,3 +1,5 @@
+require 'uri'
+
 module ShowVideosHelper
 
   def ShowVideosHelper.get_list_by_category(category, all_videos)
@@ -40,6 +42,20 @@ module ShowVideosHelper
     end
 
     return found
+  end
+
+  # weakness of this method is that it only works on single byte chars
+  # needs to be changed to support multi-byte chars
+  def ShowVideosHelper.xor_decrypt(encrypted_string, xor_key)
+    decrypted_chars = [];
+      encrypted_string.each_byte { |c|
+      decrypted_chars.push((c ^ xor_key).chr)
+    }
+
+    decrypted_string = ""
+    decrypted_chars.each { |x| decrypted_string += x }
+
+    return decrypted_string
   end
 
 end

@@ -56,8 +56,9 @@ class VideoAttributes
     'vpw0bKOTDrs' => OBGYN,
     'R6XGStFZz_Q' => OBGYN,
     'MVDKrQorC4A' => PSYCH,
-    '5O4eZT0J3l0' => NEURO
-   }
+    '5O4eZT0J3l0' => NEURO,
+    'suAwmQaTmUE' => NEURO
+  }
 
   @order_by_id =  {
       '5uBE4uuTEMQ' => 1,
@@ -104,7 +105,8 @@ class VideoAttributes
       'vpw0bKOTDrs' => 42,
       'R6XGStFZz_Q' => 43,
       'MVDKrQorC4A' => 44,
-      '5O4eZT0J3l0' => 45
+      '5O4eZT0J3l0' => 45,
+      'suAwmQaTmUE' => 46
   }
 
 

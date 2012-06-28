@@ -1,4 +1,4 @@
-<style type="text/css">
+<style type="text/css" xmlns="http://www.w3.org/1999/html">
   #videoDiv {
     margin-right: 3px;
   }
@@ -8,6 +8,7 @@
 </style>
 
 <script type="text/javascript">
+  var featuredVideoId =  "<%=$featured_video_id %>";
 
   function _run() {
     loadPlayer("<%=$featured_video_id%>");
@@ -31,19 +32,19 @@
   <table class="playerTable">
     <tr>
       <td width="10%">
-        <img src="assets/PreviousVid.png" onclick="getPreviousVideo()" class="imgButtons"/>
+        <img src="assets/PreviousVid2.png" onclick="getPreviousVideo()" class="imgButtons"/>
       <td style="text-align: center">
             <div id="videoDiv" class="videoDivClass">Loading...</div>
             <div id="videoControls"/>
       </td>
       <td width="10%">
-       <img src="assets/nextVideo.jpg" onclick="getNextVideo()" class="imgButtons"/>
+       <img src="assets/NextVid2.png" onclick="getNextVideo()" class="imgButtons"/>
     </tr>
   </table>
 
     <div class="welcomeHeader"><b> Welcome to UndergroundMed! </b></div>
-        Clinical concepts taught through INTERACTIVE, HIGH-YIELD, 7 MINUTE videos - created by MEDICAL STUDENTS and
-        REVIEWED for factual correctness by experienced medical educators.
+        Clinical concepts taught through <b>interactive, high-yield, 7 minute</b> videos - created by <b>medical students</b> and
+        <b>reviewed</b> for factual correctness by <b>experienced</b> medical educators.
   <div class="videoListDiv">
       <table id="videoListTable">
         <tr>

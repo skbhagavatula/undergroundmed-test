@@ -107,4 +107,15 @@ class ShowVideosHelperTest < ActionController::TestCase
     assert_equal(false, found)
   end
 
+  test  "test_crypt"  do
+    email = "rich.cohen@i-intime.org"
+    encrypted_email =   "toen(einch#26o+ohrokc(ita"
+    xor_key = 6
+
+    decrypted_string = ShowVideosHelper.xor_decrypt(encrypted_email, xor_key)
+    decrypted_email = URI.unescape(decrypted_string)
+
+    assert_equal(email, decrypted_email)
+
+  end
 end

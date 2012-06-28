@@ -19,6 +19,9 @@ function submitContact()    {
   var name =  $("#name").attr("value") ;
   var email =  $("#email").attr("value") ;
 
+  var encodedEmail = encodeURIComponent(encodeHtml(email));
+  var encodedString = xor_str(encodedEmail);
+
   $.ajax({
     url: "show_videos/save_contact",
     type: "POST",
@@ -97,4 +100,17 @@ function hideContactDialog() {
 function showSaveMsg( msg, title) {
   hideProgressDialog();
   showinfoDialog(msg, title);
+}
+
+function xor_str(value) {
+
+  var to_enc = value;
+
+  var result ="";
+
+  for(i=0;i<to_enc.length;++i)  {
+    result+=String.fromCharCode(xor_key^to_enc.charCodeAt(i));
+  }
+
+  return result;
 }
