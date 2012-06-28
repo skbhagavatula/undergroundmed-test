@@ -51,8 +51,12 @@ function validateContact() {
     return false;
   }
 
-   // got the regex from: http://www.marketingtechblog.com/javascript-regex-emailaddress/
-    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+   /*
+   Very simple email validation to validate pattern: anystring@anystring.anystring
+   Most regex that I found only validated english characters. Normal international chars
+   were reported as invalid.
+    */
+    var filter = /\S+@\S+\.\S+/;
     if (!filter.test(email)) {
       alert('Please provide a valid email address');
       return false;

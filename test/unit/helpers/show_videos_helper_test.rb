@@ -1,3 +1,4 @@
+# encoding: utf-8
 require 'test_helper'
 
 class ShowVideosHelperTest < ActionController::TestCase
@@ -113,9 +114,17 @@ class ShowVideosHelperTest < ActionController::TestCase
     xor_key = 6
 
     decrypted_string = ShowVideosHelper.xor_decrypt(encrypted_email, xor_key)
-    decrypted_email = URI.unescape(decrypted_string)
+    unencoded_email = URI.unescape(decrypted_string)
 
-    assert_equal(email, decrypted_email)
+    assert_equal(email, unencoded_email)
+
+    email_fr = "andré§@gmail.com"
+    encoded_emal_fr = "andr%C3%A9%C2%A7%40gmail.com"
+    encrypted_email_fr = "ghbt#E5#G?#E4#G1#26akgoj(eik"
+
+    decrypted_string = ShowVideosHelper.xor_decrypt(encrypted_email_fr, xor_key)
+    unencoded_email = URI.unescape(decrypted_string)
+    assert_equal(email_fr, unencoded_email)
 
   end
 end
