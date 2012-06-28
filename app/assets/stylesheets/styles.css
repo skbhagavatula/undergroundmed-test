@@ -199,7 +199,7 @@ h1 {
 #mainNav li ul { /* second-level lists */
   position: absolute;
   background: #d8e4f0;
-  width: 11em;
+  width: 14em;
   left: -999em;
   padding-bottom: 6px;
   z-index: 1;
