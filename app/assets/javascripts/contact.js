@@ -19,8 +19,9 @@ function submitContact()    {
   var name =  $("#name").attr("value") ;
   var email =  $("#email").attr("value") ;
 
-  var encodedEmail = encodeURIComponent(encodeHtml(email));
-  var encodedString = xor_str(encodedEmail);
+  // for debugging
+//  var encodedEmail = encodeURIComponent(encodeHtml(email));
+//  var encodedString = xor_str(encodedEmail);
 
   $.ajax({
     url: "show_videos/save_contact",
@@ -30,8 +31,8 @@ function submitContact()    {
                 review: reviewVideo,
                 addToList: addToList,
                 comments: encodeURIComponent(encodeHtml(comments)),
-                name: encodeURIComponent(encodeHtml(name)),
-                email: encodeURIComponent(encodeHtml(email)) },
+                name: xor_str(encodeURIComponent(encodeHtml(name))),
+                email: xor_str(encodeURIComponent(encodeHtml(email))) },
     success: function(data, status, xhr) {
       showSaveMsg(data[0], "Saved") ;
     },

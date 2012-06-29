@@ -78,8 +78,12 @@ class ShowVideosController < ApplicationController
     makeVideo = params[:video]
     reviewVideo = params[:review]
     comments = URI.unescape(params[:comments])
-    name = URI.unescape(params[:name])
-    email = URI.unescape(params[:email])
+
+    decrypted_name =  ShowVideosHelper.xor_decrypt(params[:name], $xor_key)
+    name = URI.unescape(decrypted_name)
+
+    decrypted_email = ShowVideosHelper.xor_decrypt(params[:email], $xor_key)
+    email = URI.unescape(decrypted_email)
     add_to_list = params[:addToList]
 
     contact_detail = ContactDetail.new(makeVideo, reviewVideo, add_to_list, comments, name, email)

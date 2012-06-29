@@ -126,5 +126,13 @@ class ShowVideosHelperTest < ActionController::TestCase
     unencoded_email = URI.unescape(decrypted_string)
     assert_equal(email_fr, unencoded_email)
 
+    email_de = "ßdussöäorf@gmail.com"
+    encoded_emal_de = "%C3%9Fduss%C3%B6%C3%A4orf%40gmail.com"
+    encrypted_email_de = "#E5#?@bsuu#E5#D0#E5#G2it`#26akgoj(eik"
+
+    decrypted_string = ShowVideosHelper.xor_decrypt(encrypted_email_de, xor_key)
+    unencoded_email = URI.unescape(decrypted_string)
+    assert_equal(email_de, unencoded_email)
+
   end
 end
