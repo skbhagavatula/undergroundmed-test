@@ -16,9 +16,9 @@ class MailContactDetail < ActionMailer::Base
         @subject =   SUBJECT_PRODUCTION
 
         rack_env = ENV['RACK_ENV']
-        #puts "---- RACK_ENV: "  + rack_env
+        puts "---- RACK_ENV: "  + rack_env
 
-        if(rack_env == "development" || rack_env ==nil)
+        if(rack_env == "development" || rack_env == "staging" || rack_env ==nil)
           @from_address =   FROM_DEV
           @to_address =  TO_DEV
           @subject  =   SUBJECT_DEV
