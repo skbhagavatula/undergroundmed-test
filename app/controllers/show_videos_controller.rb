@@ -13,6 +13,7 @@ class ShowVideosController < ApplicationController
     video_list = get_current_list
     @category_list =  get_category_list(video_list)
     $featured_video_title =  get_featured_title (video_list)
+    RunTimeEnvironment.log_runtime_environment()
   end
 
   def get_category_list  (video_list)

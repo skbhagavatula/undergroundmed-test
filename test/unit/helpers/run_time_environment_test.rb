@@ -8,6 +8,8 @@ class RunTimeEnvironmentTest   < Test::Unit::TestCase
 
       assert_equal(false, RunTimeEnvironment.is_production?)
       assert_equal(true, RunTimeEnvironment.is_test?)
+
+     RunTimeEnvironment.log_runtime_environment()
  end
 
 end

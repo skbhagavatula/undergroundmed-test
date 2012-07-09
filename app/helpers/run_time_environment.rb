@@ -27,4 +27,8 @@ end
     return ENV['RAILS_ENV'] == TEST
   end
 
+  def self.log_runtime_environment
+    puts  "---- Rails Env: " + ENV['RAILS_ENV']
+  end
+
 end
