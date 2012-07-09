@@ -136,7 +136,7 @@ class ShowVideosController < ApplicationController
 
   def get_redirect_site
     site = "http://strong-meadow-4887.herokuapp.com/"
-    if ENV['RACK_ENV'] =='development'
+    if RunTimeEnvironment.is_development?
       site = "http://localhost:3000/"
     end
     site
