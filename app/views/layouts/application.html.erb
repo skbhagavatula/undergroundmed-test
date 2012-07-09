@@ -28,7 +28,11 @@
 
    //    discqus variables
    var disqus_shortname = 'medu'; // required: replace example with your forum shortname
-   var disqus_developer = 1; // developer mode is on
+   <% if  RunTimeEnvironment.is_development?  %>
+      var disqus_developer = 1; // developer mode is on
+   <% else %>
+     var disqus_developer = 0; // developer mode is off
+   <% end %>
    var disqus_identifier = 'disqus_test1/';
 
    /* * * display comments * * */
