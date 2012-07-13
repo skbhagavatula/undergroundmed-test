@@ -250,15 +250,3 @@ h1 {
 }
 #subNav ul li a {color: #333;}
 #subNav ul li li a {color: #3e63ac;}
-
-/* comments */
-.commentstDiv {
-  height: 250px;
-  width:70%;
-  overflow: auto;
-  padding: 2px;
-  margin-left:auto;
-  margin-right: auto;
-  margin-top: 10px;
-  border: 1px solid #d8e4f0;
-}
