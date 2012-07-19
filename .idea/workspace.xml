@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="946b2b32-d563-4854-9329-31400e416ee4" name="Default" comment="" />
+    <list default="true" id="946b2b32-d563-4854-9329-31400e416ee4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+    </list>
     <ignored path="undergroundmed.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
@@ -28,27 +32,15 @@
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="41" column="1" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1342648914420" expanded="true" signature="439:468" placeholder="/*...*/" />
-                <marker date="1342648914420" expanded="true" signature="605:637" placeholder="/*...*/" />
-                <marker date="1342648914420" expanded="true" signature="958:990" placeholder="/*...*/" />
-                <marker date="1342648914420" expanded="true" signature="1130:1164" placeholder="/*...*/" />
-                <marker date="1342648914420" expanded="true" signature="1283:1346" placeholder="/*...*/" />
-                <marker date="1342648914420" expanded="true" signature="1533:1567" placeholder="/*...*/" />
-                <marker date="1342648914420" expanded="true" signature="1676:1716" placeholder="/*...*/" />
-                <marker date="1342648914420" expanded="true" signature="2486:2506" placeholder="/*...*/" />
-                <marker date="1342648914420" expanded="true" signature="3791:3817" placeholder="/*...*/" />
-                <marker date="1342648914420" expanded="true" signature="3841:3867" placeholder="/*...*/" />
-                <marker date="1342648914420" expanded="true" signature="3896:3921" placeholder="/*...*/" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="youtube_player.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="youtube_player.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/youtube_player.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="20" selection-start="170" selection-end="170" vertical-scroll-proportion="0.23943663">
+            <state line="7" column="20" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -57,7 +49,7 @@
       <file leaf-file-name="videolist.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/videolist.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="13" selection-start="4706" selection-end="4715" vertical-scroll-proportion="-15.888889">
+            <state line="187" column="13" selection-start="4706" selection-end="4715" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,7 +76,16 @@
       <file leaf-file-name="init.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/show_videos/init.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="31" selection-start="997" selection-end="997" vertical-scroll-proportion="-21.76923">
+            <state line="38" column="31" selection-start="997" selection-end="997" vertical-scroll-proportion="-2.1538463">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="8" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.47389558">
               <folding />
             </state>
           </provider>
@@ -105,9 +106,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/assets/javascripts/twitter_feed.js" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/styles.css" />
         <option value="$PROJECT_DIR$/app/views/show_videos/init.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -184,10 +185,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="show_videos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -206,18 +203,8 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="undergroundmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="undergroundmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -232,56 +219,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="undergroundmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="undergroundmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="undergroundmed" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane subId="Project Files" />
       </pane>
     </panes>
   </component>
@@ -495,13 +440,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="943" height="1032" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3854048" sideWeight="0.66364664" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2896237" sideWeight="0.66364664" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39867842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33635333" sideWeight="0.99760765" order="7" side_tool="true" content_ui="tabs" />
@@ -586,35 +531,28 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/util.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/show_videos.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/youtube_player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="1" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1342648914420" expanded="true" signature="439:468" placeholder="/*...*/" />
-            <marker date="1342648914420" expanded="true" signature="605:637" placeholder="/*...*/" />
-            <marker date="1342648914420" expanded="true" signature="958:990" placeholder="/*...*/" />
-            <marker date="1342648914420" expanded="true" signature="1130:1164" placeholder="/*...*/" />
-            <marker date="1342648914420" expanded="true" signature="1283:1346" placeholder="/*...*/" />
-            <marker date="1342648914420" expanded="true" signature="1533:1567" placeholder="/*...*/" />
-            <marker date="1342648914420" expanded="true" signature="1676:1716" placeholder="/*...*/" />
-            <marker date="1342648914420" expanded="true" signature="2486:2506" placeholder="/*...*/" />
-            <marker date="1342648914420" expanded="true" signature="3791:3817" placeholder="/*...*/" />
-            <marker date="1342648914420" expanded="true" signature="3841:3867" placeholder="/*...*/" />
-            <marker date="1342648914420" expanded="true" signature="3896:3921" placeholder="/*...*/" />
-          </folding>
+        <state line="7" column="20" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/videolist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2110" selection-end="2110" vertical-scroll-proportion="-0.41923776">
+        <state line="187" column="13" selection-start="4706" selection-end="4715" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/progressDialog.js">
@@ -622,28 +560,23 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="1" selection-start="600" selection-end="600" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/show_videos/init.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="31" selection-start="997" selection-end="997" vertical-scroll-proportion="-21.76923">
+        <state line="38" column="31" selection-start="997" selection-end="997" vertical-scroll-proportion="-2.1538463">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/show_videos.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/videolist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="13" selection-start="4706" selection-end="4715" vertical-scroll-proportion="-15.888889">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/youtube_player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="170" selection-end="170" vertical-scroll-proportion="0.23943663">
+        <state line="68" column="8" selection-start="1988" selection-end="1988" vertical-scroll-proportion="0.47389558">
           <folding />
         </state>
       </provider>
