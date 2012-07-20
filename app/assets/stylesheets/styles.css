@@ -13,7 +13,7 @@ body,
 html {
     padding:0;
     color:#000;
-    width: 1300px;
+    width: 1610px;
     margin-left:auto;
     margin-right:auto;
     background-image: url('redesign/outerbody_texture6.jpg');
@@ -22,39 +22,36 @@ html {
 
 #innerBody {
     width: 1300px;
-    border: 3px solid #bbbbbb;
+    border: 4px solid #999999;
     background-color: #fff;
 }
 
 #outerBody {
+    float: right;
     background-color: #fff;
+    width: 300px;
 }
 
 #wrap {
   margin:0 auto;
 }
 #header {
-  /*margin-bottom: 5px;*/
-  padding:0;
-  height: 90px;
-  background-color: #264061;
-}
-
-#header img {
-  padding-top: 3px;
-  margin: auto;
-  display:block;
+    width: 1300px;
+    height: 98px;
+    padding:0;
+    background-image:url('redesign/header5.jpg');
+    /*background-color: #264061;    */
 }
 
 h1 {
   margin:0;
 }
 #navigation2 {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #d8e4f0;
-    height: 30px;
-    text-align: center;
+    /*background-color: #d8e4f0;  */
+    width: 1300px;
+    height: 34px;
+    padding:0;
+    background-image:url('redesign/navigation5.jpg');
 }
 
 .welcomeHeader {
@@ -72,19 +69,21 @@ h1 {
     width: 1300px;
     height: 501px;
     padding:0px;
-    /*background-image:url('redesign/subheader5.jpg');   */
+    background-image:url('redesign/subheader5.jpg');
 }
 
-#tabsection {
-    float:left;
-    padding:10px;
-    text-align:center;
+#tabSection {
+    width: 1300px;
+    height: 42px;
+    padding:0px;
+    background-image:url('redesign/tabs.jpg');
 }
 
 #main {
-  float:left;
-  padding:10px;
-  text-align:center;
+    width: 1300px;
+    height: 628px;
+    padding:0px;
+    background-image:url('redesign/main5.jpg');
 }
 
 
@@ -123,16 +122,18 @@ h1 {
 }
 #videoListTable th
 {
-  font-size: 14px;
-  font-weight: normal;
-  color: black;
-  padding: 2px 8px;
-  border-bottom: 2px solid #d8e4f0;
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+    padding: 2px 8px;
+    /*border-bottom: 2px solid #d8e4f0;   */
+    background-color: #c6bfba;
 }
 #videoListTable td
 {
-  color: black;
-  padding: 2px 8px;
+    color: black;
+    padding: 2px 8px;
+    background-color: #c6bfba;
 }
 
 #videoListTable a {
