@@ -49,11 +49,11 @@ html {
 h1 {
   margin:0;
 }
-#navigation {
+#navigation2 {
     margin-left: auto;
     margin-right: auto;
     background-color: #d8e4f0;
-    height: 18px;
+    height: 30px;
     text-align: center;
 }
 
@@ -65,14 +65,6 @@ h1 {
   background-color: #d8e4f0;
   font-size: 12pt;
   text-align:center;
-}
-
-#navigation {
-    /*background-color: #d8e4f0;  */
-    width: 1300px;
-    height: 34px;
-    padding:0;
-    /*background-image:url('redesign/navigation5.jpg'); */
 }
 
 #subheader {
