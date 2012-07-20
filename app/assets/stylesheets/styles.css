@@ -83,7 +83,7 @@ h1 {
     width: 1300px;
     height: 628px;
     padding:0px;
-    background-image:url('redesign/main5.jpg');
+    background-image:url('redesign/main6.jpg');
 }
 
 
@@ -127,7 +127,7 @@ h1 {
     color: black;
     padding: 2px 8px;
     /*border-bottom: 2px solid #d8e4f0;   */
-    background-color: #c6bfba;
+    background-color: #999999;
 }
 #videoListTable td
 {
@@ -171,7 +171,8 @@ h1 {
 }
 
 #mainNav {
-  background: #d8e4f0;
+  /*background: #d8e4f0; */
+  background-color: transparent;
   width: 100%;
 }
 
@@ -183,7 +184,7 @@ h1 {
   border: none;
   padding-top: 2px;
   padding-bottom: 2px;
-  color: #268cc4;
+  background-color: transparent;
   font-size: 10pt;
 }
 
@@ -219,9 +220,10 @@ h1 {
   font-size: 12px;
 }
 
-#mainNav li ul { /* second-level lists */
+#mainNav li ul { /* drop-down menu/second-level lists */
   position: absolute;
-  background: #d8e4f0;
+  background-color: #999999;
+  opacity: .95;
   width: 14em;
   left: -999em;
   padding-bottom: 6px;
@@ -230,7 +232,7 @@ h1 {
 
 #mainNav li ul a {
   width: 9em;
-  color: black;
+  color: #ffffff;
 }
 
 #mainNav li ul ul { /* third-and-above-level lists */
@@ -257,11 +259,12 @@ h1 {
 
 #mainNav ul ul a:hover, #subNav ul a:hover, #caseNav ul a:hover {
   text-decoration: underline;
-  color: #000;
+  color: #ffffff;
 }
 
 #mainNav ul ul a:hover {
-  background: #d8e4f0;
+  background: #666666;
+  opacity:.95;
 }
 
 #mainNav ul li#-tab a {
