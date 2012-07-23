@@ -16,19 +16,18 @@ html {
     width: 1610px;
     margin-left:auto;
     margin-right:auto;
-    background-image: url('redesign/outerbody_texture6.jpg');
+    background-color: #e7edfc;
 
 }
 
 #innerBody {
     width: 1300px;
-    border: 4px solid #999999;
-    background-color: #fff;
+    border: 2px solid #999999;
 }
 
 #outerBody {
     float: right;
-    background-color: #fff;
+    background-color: #e7edfc;
     width: 300px;
 }
 
