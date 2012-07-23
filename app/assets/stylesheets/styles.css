@@ -37,9 +37,9 @@ html {
 }
 #header2 {
     width: 1300px;
-    height: 98px;
+    height: 93px;
     padding:0;
-    background-image:url('redesign/header5.jpg');
+    background-image:url('redesign2/header.jpg');
     /*background-color: #264061;    */
 }
 
@@ -49,9 +49,9 @@ h1 {
 #navigation2 {
     /*background-color: #d8e4f0;  */
     width: 1300px;
-    height: 34px;
+    height: 39px;
     padding:0;
-    background-image:url('redesign/navigation5.jpg');
+    background-image:url('redesign2/navigation.jpg');
 }
 
 .welcomeHeader {
@@ -67,23 +67,23 @@ h1 {
 #subheader {
     /*background-color: #d8e4f0;  */
     width: 1300px;
-    height: 501px;
+    height: 499px;
     padding:0px;
-    background-image:url('redesign/subheader5.jpg');
+    background-image:url('redesign2/subheader.jpg');
 }
 
 #tabSection {
     width: 1300px;
-    height: 42px;
+    height: 44px;
     padding:0px;
-    background-image:url('redesign/tabs.jpg');
+    background-image:url('redesign2/tabSection.jpg');
 }
 
 #main {
     width: 1300px;
-    height: 628px;
+    height: 629px;
     padding:0px;
-    background-image:url('redesign/main6.jpg');
+    background-image:url('redesign2/main.jpg');
 }
 
 
