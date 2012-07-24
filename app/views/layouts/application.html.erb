@@ -44,7 +44,7 @@
   <div style="margin-top:5px; margin-left:auto; margin-right:auto; width:380px;">
     <div id="mainNav">
     <ul>
-      <li><a href="#"><h2>Videos</h2></a>
+      <li><a href="#"><h3>Videos</h3></a>
         <ul>
           <%@category_list.each do |category| %>
               <li><a href="#" onclick="getVideoListLocal('<%=category%>')"><%= category%></a></li>
@@ -52,9 +52,9 @@
         </ul>
       </li>
       <li>|</li>
-      <li><a href="#" onclick="showContactDialog()">Get Involved</a>
+      <li><a href="#" onclick="showContactDialog()"><h3>Get Involved</h3></a>
       <li>|</li>
-      <li><a href="#">About</a>
+      <li><a href="#"><h3>About</h3></a>
         <ul>
           <li><a href="#" onclick="aboutMission()">Our Mission</a></li>
           <li><a href="#" onclick="aboutFounders()">Meet the Founders</a></li>
